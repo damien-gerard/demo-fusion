@@ -1,7 +1,14 @@
 // EWidget.java
 
 package com.walkerbros.common.widget;
-
+// Joes's edit.
+/*
+ * EBolt.java - definition of the bolt object for the Widget component.
+ *
+ * 10/31/03 (jwalker) - defined file for the Talkhouse application.
+ * 11/14/03 (jcoder)  - added comments to define the default construtor definition.
+ * 11/14/03 (jcoder)  - added even more comments.
+ */
 public class EWidget
 {
 
