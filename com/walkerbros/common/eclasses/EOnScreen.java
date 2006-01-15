@@ -21,8 +21,8 @@ public class EOnScreen extends EObject
 	public boolean isType( short type )
 	{
 		if( EDefines.E_OBJ_TYPE_ONSCREEN == type )
-			return true;
-		return false;
+			return false;
+		return true;
 	}
 	
 	public boolean isOfType( short type )
