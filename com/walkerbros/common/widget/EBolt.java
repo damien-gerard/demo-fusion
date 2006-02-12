@@ -4,7 +4,8 @@ package com.walkerbros.common.widget;
 public class EBolt
 {
 
-
+	public static final short E_BOLT_STATE_SCREWED_TIGHT			= 0;
+	public static final short E_BOLT_STATE_SCREWED_LOOSE			= 1;
 	public static final short E_BOLT_STATE_SCREWED_OFF			= 0;
 	public static final short E_BOLT_STATE_SCREWED_ON			= 1;
 	
