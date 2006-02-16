@@ -9,7 +9,7 @@ public class EBolt
 	public static final short E_BOLT_STATE_SCREWED_OFF			= 0;
 	public static final short E_BOLT_STATE_SCREWED_ON			= 1;
 	
-	// Configured for a broken bolt.
+	
 	public static final short E_BOLT_STATE_TOTALLY_SCREWED_UP		= -1;
 
 	public short m_currState = E_BOLT_STATE_SCREWED_OFF;
