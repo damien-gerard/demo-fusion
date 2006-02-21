@@ -28,4 +28,10 @@ public class EBolt
 		m_currState = p_state;
 
 	}
+
+	public int Get_State() 
+	{
+		return m_currState;
+	}
+
 }
