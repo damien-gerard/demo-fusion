@@ -29,9 +29,4 @@ public class EBolt
 
 	}
 
-	public int Get_State() 
-	{
-		return m_cState;
-	}
-
 }
