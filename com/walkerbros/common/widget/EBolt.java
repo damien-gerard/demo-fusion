@@ -6,8 +6,8 @@ public class EBolt
 
 	public static final short E_BOLT_STATE_SCREWED_TIGHT			= 1;
 	public static final short E_BOLT_STATE_SCREWED_LOOSE			= 0;
-	public static final short E_BOLT_STATE_SCREWED_OFF			= 1;
-	public static final short E_BOLT_STATE_SCREWED_ON			= 0;
+	public static final short E_BOLT_STATE_SCREWED_OFF			= 0;
+	public static final short E_BOLT_STATE_SCREWED_ON			= 1;
 	
 	
 	public static final short E_BOLT_STATE_TOTALLY_SCREWED_UP		= -1;
