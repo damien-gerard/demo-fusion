@@ -28,4 +28,11 @@ public class ENut
 		m_currState = p_state;
 
 	}
+
+	public get_state() 
+	{
+		return m_currState;
+
+	}
+
 }
