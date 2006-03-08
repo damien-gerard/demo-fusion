@@ -17,7 +17,7 @@ public class ENut
 	/*
  	 * Dummy construtor was introduced after a meeting with the standards committee.
  	 * It was decided that it was only good form to maintain these since there might be
-         * cases in the future were objected will be created and not initialized.
+         * cases in the future were objectes will be created and not initialized.
          */
 	public ENut() 
 	{
