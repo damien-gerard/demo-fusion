@@ -5,8 +5,8 @@ package com.walkerbros.common.widget;
 public class ENut
 {
 
-
-	public static final short E_NUT_STATE_SCREWED_OFF			= 0;
+// Constants for state of nut
+	public static final short E_NUT_STATE_SCREWED_OFF		= 0;
 	public static final short E_NUT_STATE_SCREWED_ON			= 1;
 	
 	// Configuration for a broken bolt.
