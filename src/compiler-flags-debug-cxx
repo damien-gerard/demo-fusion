@@ -1,0 +1,1 @@
+ -D_REENTRANT -DXUSE_MTSAFE_API -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -fPIC  -std=c++14 -stdlib=libstdc++ -fvisibility=hidden -g -gfull -ggdb -ggdb3 -W -Wall -Wextra -Wunused-parameter -Wconversion -Woverloaded-virtual -Wundef -Wfloat-equal -Wmissing-noreturn -Wcast-align -Wuninitialized -Wdocumentation        

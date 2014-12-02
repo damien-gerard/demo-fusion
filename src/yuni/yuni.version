@@ -1,0 +1,22 @@
+[general]
+website            = "http://www.libyuni.org"
+devpack.repository = "http://devpacks.libyuni.org/"
+devpack.source     = "http://devpacks.libyuni.org/downloads"
+generated.from     = "yuni/cmake/version.cmake"
+
+[version]
+version.hi         = 0
+version.lo         = 2
+version.rev        = 1
+version.string     = "0.2.1-debug"
+version.litestring = "0.2.1"
+version.target     = debug
+
+[support]
+support.opengl  = 0
+support.directx = 0
+
+[modules]
+modules.list      = "algorithms;vm;marshal;vfs;vfs-local;media;devices;display;keyboard;mouse;graphics;opengl;ui;dbi;dbi-sqlite;net;netserver;netclient;ldo;uuid;docs;parser"
+modules.available = "core;uuid;parser"
+

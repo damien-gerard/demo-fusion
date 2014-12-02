@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../build/debug/lib/libyuni-static-parser.a  CMakeFiles/yuni-static-parser.dir/parser/peg/grammar.cpp.o CMakeFiles/yuni-static-parser.dir/parser/peg/node.cpp.o CMakeFiles/yuni-static-parser.dir/parser/peg/export-cpp.cpp.o CMakeFiles/yuni-static-parser.dir/parser/peg/export-dot.cpp.o
+/usr/bin/ranlib ../build/debug/lib/libyuni-static-parser.a

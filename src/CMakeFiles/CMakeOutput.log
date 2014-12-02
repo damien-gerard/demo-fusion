@@ -1,0 +1,1773 @@
+The system is: Linux - 3.16.0-24-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/clang 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is Clang, found in "/home/dgerard/projects/yuni/src/CMakeFiles/2.8.12.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/clang++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is Clang, found in "/home/dgerard/projects/yuni/src/CMakeFiles/2.8.12.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec8219574/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec8219574.dir/build.make CMakeFiles/cmTryCompileExec8219574.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec8219574.dir/testCCompiler.c.o
+/usr/bin/clang    -o CMakeFiles/cmTryCompileExec8219574.dir/testCCompiler.c.o   -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec8219574
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec8219574.dir/link.txt --verbose=1
+/usr/bin/clang       CMakeFiles/cmTryCompileExec8219574.dir/testCCompiler.c.o  -o cmTryCompileExec8219574 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec915267992/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec915267992.dir/build.make CMakeFiles/cmTryCompileExec915267992.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec915267992.dir/CMakeCCompilerABI.c.o
+/usr/bin/clang    -o CMakeFiles/cmTryCompileExec915267992.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec915267992
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec915267992.dir/link.txt --verbose=1
+/usr/bin/clang     -v CMakeFiles/cmTryCompileExec915267992.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec915267992 -rdynamic  
+Ubuntu clang version 3.5.0-4ubuntu2 (tags/RELEASE_350/final) (based on LLVM 3.5.0)
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+Found candidate GCC installation: /usr/bin/../lib/gcc/i686-linux-gnu/4.9
+Found candidate GCC installation: /usr/bin/../lib/gcc/i686-linux-gnu/4.9.1
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8.3
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/4.9
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/4.9.1
+Found candidate GCC installation: /usr/lib/gcc/i686-linux-gnu/4.9
+Found candidate GCC installation: /usr/lib/gcc/i686-linux-gnu/4.9.1
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/4.8
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/4.8.3
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/4.9
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/4.9.1
+Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/4.9
+Candidate multilib: .;@m64
+Candidate multilib: 32;@m32
+Candidate multilib: x32;@mx32
+Selected multilib: .;@m64
+ "/usr/bin/ld" -export-dynamic --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec915267992 /usr/bin/../lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/4.9/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/4.9 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/4.9/../../.. -L/usr/lib/llvm-3.5/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTryCompileExec915267992.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib/gcc/x86_64-linux-gnu/4.9/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec915267992/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec915267992.dir/build.make CMakeFiles/cmTryCompileExec915267992.dir/build]
+  ignore line: [make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec915267992.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/clang    -o CMakeFiles/cmTryCompileExec915267992.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec915267992]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec915267992.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/clang     -v CMakeFiles/cmTryCompileExec915267992.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec915267992 -rdynamic  ]
+  ignore line: [Ubuntu clang version 3.5.0-4ubuntu2 (tags/RELEASE_350/final) (based on LLVM 3.5.0)]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/i686-linux-gnu/4.9]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/i686-linux-gnu/4.9.1]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8.3]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/4.9]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/4.9.1]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/i686-linux-gnu/4.9]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/i686-linux-gnu/4.9.1]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/4.8]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/4.8.3]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/4.9]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/4.9.1]
+  ignore line: [Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/4.9]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Candidate multilib: 32]
+  ignore line: [@m32]
+  ignore line: [Candidate multilib: x32]
+  ignore line: [@mx32]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  link line: [ "/usr/bin/ld" -export-dynamic --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec915267992 /usr/bin/../lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/4.9/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/4.9 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/4.9/../../.. -L/usr/lib/llvm-3.5/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTryCompileExec915267992.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib/gcc/x86_64-linux-gnu/4.9/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/bin/ld] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec915267992] ==> ignore
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/4.9/crtbegin.o] ==> ignore
+    arg [-L/usr/bin/../lib/gcc/x86_64-linux-gnu/4.9] ==> dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/4.9]
+    arg [-L/usr/bin/../lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu] ==> dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/bin/../lib/gcc/x86_64-linux-gnu/4.9/../../..] ==> dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/4.9/../../..]
+    arg [-L/usr/lib/llvm-3.5/bin/../lib] ==> dir [/usr/lib/llvm-3.5/bin/../lib]
+    arg [-L/lib] ==> dir [/lib]
+    arg [-L/usr/lib] ==> dir [/usr/lib]
+    arg [CMakeFiles/cmTryCompileExec915267992.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/4.9/crtend.o] ==> ignore
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/4.9] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.9]
+  collapse library dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/4.9/../../..] ==> [/usr/lib]
+  collapse library dir [/usr/lib/llvm-3.5/bin/../lib] ==> [/usr/lib/llvm-3.5/lib]
+  collapse library dir [/lib] ==> [/lib]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.9;/usr/lib/x86_64-linux-gnu;/lib/x86_64-linux-gnu;/lib64;/usr/lib;/usr/lib/llvm-3.5/lib;/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2216424301/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2216424301.dir/build.make CMakeFiles/cmTryCompileExec2216424301.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2216424301.dir/testCXXCompiler.cxx.o
+/usr/bin/clang++     -o CMakeFiles/cmTryCompileExec2216424301.dir/testCXXCompiler.cxx.o -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec2216424301
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2216424301.dir/link.txt --verbose=1
+/usr/bin/clang++        CMakeFiles/cmTryCompileExec2216424301.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec2216424301 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1212839454/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1212839454.dir/build.make CMakeFiles/cmTryCompileExec1212839454.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1212839454.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/clang++     -o CMakeFiles/cmTryCompileExec1212839454.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec1212839454
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1212839454.dir/link.txt --verbose=1
+/usr/bin/clang++      -v CMakeFiles/cmTryCompileExec1212839454.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec1212839454 -rdynamic  
+Ubuntu clang version 3.5.0-4ubuntu2 (tags/RELEASE_350/final) (based on LLVM 3.5.0)
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+Found candidate GCC installation: /usr/bin/../lib/gcc/i686-linux-gnu/4.9
+Found candidate GCC installation: /usr/bin/../lib/gcc/i686-linux-gnu/4.9.1
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8.3
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/4.9
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/4.9.1
+Found candidate GCC installation: /usr/lib/gcc/i686-linux-gnu/4.9
+Found candidate GCC installation: /usr/lib/gcc/i686-linux-gnu/4.9.1
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/4.8
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/4.8.3
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/4.9
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/4.9.1
+Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/4.9
+Candidate multilib: .;@m64
+Candidate multilib: 32;@m32
+Candidate multilib: x32;@mx32
+Selected multilib: .;@m64
+ "/usr/bin/ld" -export-dynamic --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec1212839454 /usr/bin/../lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/4.9/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/4.9 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/4.9/../../.. -L/usr/lib/llvm-3.5/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTryCompileExec1212839454.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib/gcc/x86_64-linux-gnu/4.9/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec1212839454/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec1212839454.dir/build.make CMakeFiles/cmTryCompileExec1212839454.dir/build]
+  ignore line: [make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec1212839454.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/clang++     -o CMakeFiles/cmTryCompileExec1212839454.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec1212839454]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1212839454.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/clang++      -v CMakeFiles/cmTryCompileExec1212839454.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec1212839454 -rdynamic  ]
+  ignore line: [Ubuntu clang version 3.5.0-4ubuntu2 (tags/RELEASE_350/final) (based on LLVM 3.5.0)]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/i686-linux-gnu/4.9]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/i686-linux-gnu/4.9.1]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8.3]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/4.9]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/4.9.1]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/i686-linux-gnu/4.9]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/i686-linux-gnu/4.9.1]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/4.8]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/4.8.3]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/4.9]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/4.9.1]
+  ignore line: [Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/4.9]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Candidate multilib: 32]
+  ignore line: [@m32]
+  ignore line: [Candidate multilib: x32]
+  ignore line: [@mx32]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  link line: [ "/usr/bin/ld" -export-dynamic --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec1212839454 /usr/bin/../lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/4.9/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/4.9 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/4.9/../../.. -L/usr/lib/llvm-3.5/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTryCompileExec1212839454.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib/gcc/x86_64-linux-gnu/4.9/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/bin/ld] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec1212839454] ==> ignore
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/4.9/crtbegin.o] ==> ignore
+    arg [-L/usr/bin/../lib/gcc/x86_64-linux-gnu/4.9] ==> dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/4.9]
+    arg [-L/usr/bin/../lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu] ==> dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/bin/../lib/gcc/x86_64-linux-gnu/4.9/../../..] ==> dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/4.9/../../..]
+    arg [-L/usr/lib/llvm-3.5/bin/../lib] ==> dir [/usr/lib/llvm-3.5/bin/../lib]
+    arg [-L/lib] ==> dir [/lib]
+    arg [-L/usr/lib] ==> dir [/usr/lib]
+    arg [CMakeFiles/cmTryCompileExec1212839454.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/4.9/crtend.o] ==> ignore
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/4.9] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.9]
+  collapse library dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/4.9/../../..] ==> [/usr/lib]
+  collapse library dir [/usr/lib/llvm-3.5/bin/../lib] ==> [/usr/lib/llvm-3.5/lib]
+  collapse library dir [/lib] ==> [/lib]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.9;/usr/lib/x86_64-linux-gnu;/lib/x86_64-linux-gnu;/lib64;/usr/lib;/usr/lib/llvm-3.5/lib;/lib]
+  implicit fwks: []
+
+
+Performing C++ SOURCE FILE Test YUNI_HAS_CPP14_SUPPORT succeded with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4027667114/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4027667114.dir/build.make CMakeFiles/cmTryCompileExec4027667114.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4027667114.dir/src.cxx.o
+/usr/bin/clang++    -g -DYUNI_HAS_CPP14_SUPPORT   -std=c++14 -o CMakeFiles/cmTryCompileExec4027667114.dir/src.cxx.o -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec4027667114
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4027667114.dir/link.txt --verbose=1
+/usr/bin/clang++   -g -DYUNI_HAS_CPP14_SUPPORT    CMakeFiles/cmTryCompileExec4027667114.dir/src.cxx.o  -o cmTryCompileExec4027667114 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test YUNI_HAS_CPP11_SUPPORT succeded with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec384098866/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec384098866.dir/build.make CMakeFiles/cmTryCompileExec384098866.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec384098866.dir/src.cxx.o
+/usr/bin/clang++    -g -DYUNI_HAS_CPP11_SUPPORT   -std=c++11 -o CMakeFiles/cmTryCompileExec384098866.dir/src.cxx.o -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec384098866
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec384098866.dir/link.txt --verbose=1
+/usr/bin/clang++   -g -DYUNI_HAS_CPP11_SUPPORT    CMakeFiles/cmTryCompileExec384098866.dir/src.cxx.o  -o cmTryCompileExec384098866 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test YUNI_HAS_GCC_CPP0X_SUPPORT succeded with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2164031374/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2164031374.dir/build.make CMakeFiles/cmTryCompileExec2164031374.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2164031374.dir/src.cxx.o
+/usr/bin/clang++    -g -DYUNI_HAS_GCC_CPP0X_SUPPORT   -std=c++0x -o CMakeFiles/cmTryCompileExec2164031374.dir/src.cxx.o -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec2164031374
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2164031374.dir/link.txt --verbose=1
+/usr/bin/clang++   -g -DYUNI_HAS_GCC_CPP0X_SUPPORT    CMakeFiles/cmTryCompileExec2164031374.dir/src.cxx.o  -o cmTryCompileExec2164031374 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test YUNI_HAS_LIB_CPP11_SUPPORT succeded with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1191744370/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1191744370.dir/build.make CMakeFiles/cmTryCompileExec1191744370.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1191744370.dir/src.cxx.o
+/usr/bin/clang++    -g -DYUNI_HAS_LIB_CPP11_SUPPORT   -stdlib=libstdc++ -o CMakeFiles/cmTryCompileExec1191744370.dir/src.cxx.o -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec1191744370
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1191744370.dir/link.txt --verbose=1
+/usr/bin/clang++   -g -DYUNI_HAS_LIB_CPP11_SUPPORT    CMakeFiles/cmTryCompileExec1191744370.dir/src.cxx.o  -o cmTryCompileExec1191744370 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test YUNI_HAS_CXX_FLAG_O3 succeded with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4042645503/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4042645503.dir/build.make CMakeFiles/cmTryCompileExec4042645503.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4042645503.dir/src.cxx.o
+/usr/bin/clang++    -g -DYUNI_HAS_CXX_FLAG_O3   -O3 -o CMakeFiles/cmTryCompileExec4042645503.dir/src.cxx.o -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec4042645503
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4042645503.dir/link.txt --verbose=1
+/usr/bin/clang++   -g -DYUNI_HAS_CXX_FLAG_O3    CMakeFiles/cmTryCompileExec4042645503.dir/src.cxx.o  -o cmTryCompileExec4042645503 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C SOURCE FILE Test YUNI_HAS_C_FLAG_O3 succeded with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1496477017/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1496477017.dir/build.make CMakeFiles/cmTryCompileExec1496477017.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1496477017.dir/src.c.o
+/usr/bin/clang   -DYUNI_HAS_C_FLAG_O3   -O3 -o CMakeFiles/cmTryCompileExec1496477017.dir/src.c.o   -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec1496477017
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1496477017.dir/link.txt --verbose=1
+/usr/bin/clang   -DYUNI_HAS_C_FLAG_O3    CMakeFiles/cmTryCompileExec1496477017.dir/src.c.o  -o cmTryCompileExec1496477017 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test YUNI_HAS_CXX_FLAG_FOMIT_FRAME_POINTER succeded with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec76437470/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec76437470.dir/build.make CMakeFiles/cmTryCompileExec76437470.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec76437470.dir/src.cxx.o
+/usr/bin/clang++    -g -DYUNI_HAS_CXX_FLAG_FOMIT_FRAME_POINTER   -fomit-frame-pointer -o CMakeFiles/cmTryCompileExec76437470.dir/src.cxx.o -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec76437470
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec76437470.dir/link.txt --verbose=1
+/usr/bin/clang++   -g -DYUNI_HAS_CXX_FLAG_FOMIT_FRAME_POINTER    CMakeFiles/cmTryCompileExec76437470.dir/src.cxx.o  -o cmTryCompileExec76437470 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C SOURCE FILE Test YUNI_HAS_C_FLAG_FOMIT_FRAME_POINTER succeded with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2449374324/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2449374324.dir/build.make CMakeFiles/cmTryCompileExec2449374324.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2449374324.dir/src.c.o
+/usr/bin/clang   -DYUNI_HAS_C_FLAG_FOMIT_FRAME_POINTER   -fomit-frame-pointer -o CMakeFiles/cmTryCompileExec2449374324.dir/src.c.o   -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec2449374324
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2449374324.dir/link.txt --verbose=1
+/usr/bin/clang   -DYUNI_HAS_C_FLAG_FOMIT_FRAME_POINTER    CMakeFiles/cmTryCompileExec2449374324.dir/src.c.o  -o cmTryCompileExec2449374324 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test YUNI_HAS_CXX_FLAG_STRICT_ALIASING succeded with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1228427379/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1228427379.dir/build.make CMakeFiles/cmTryCompileExec1228427379.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1228427379.dir/src.cxx.o
+/usr/bin/clang++    -g -DYUNI_HAS_CXX_FLAG_STRICT_ALIASING   -fstrict-aliasing -o CMakeFiles/cmTryCompileExec1228427379.dir/src.cxx.o -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec1228427379
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1228427379.dir/link.txt --verbose=1
+/usr/bin/clang++   -g -DYUNI_HAS_CXX_FLAG_STRICT_ALIASING    CMakeFiles/cmTryCompileExec1228427379.dir/src.cxx.o  -o cmTryCompileExec1228427379 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C SOURCE FILE Test YUNI_HAS_C_FLAG_STRICT_ALIASING succeded with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2457664599/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2457664599.dir/build.make CMakeFiles/cmTryCompileExec2457664599.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2457664599.dir/src.c.o
+/usr/bin/clang   -DYUNI_HAS_C_FLAG_STRICT_ALIASING   -fstrict-aliasing -o CMakeFiles/cmTryCompileExec2457664599.dir/src.c.o   -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec2457664599
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2457664599.dir/link.txt --verbose=1
+/usr/bin/clang   -DYUNI_HAS_C_FLAG_STRICT_ALIASING    CMakeFiles/cmTryCompileExec2457664599.dir/src.c.o  -o cmTryCompileExec2457664599 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test YUNI_HAS_CXX_FLAG_MSSE succeded with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3670041565/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3670041565.dir/build.make CMakeFiles/cmTryCompileExec3670041565.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3670041565.dir/src.cxx.o
+/usr/bin/clang++    -g -DYUNI_HAS_CXX_FLAG_MSSE   -msse -o CMakeFiles/cmTryCompileExec3670041565.dir/src.cxx.o -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec3670041565
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3670041565.dir/link.txt --verbose=1
+/usr/bin/clang++   -g -DYUNI_HAS_CXX_FLAG_MSSE    CMakeFiles/cmTryCompileExec3670041565.dir/src.cxx.o  -o cmTryCompileExec3670041565 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C SOURCE FILE Test YUNI_HAS_C_FLAG_MSSE succeded with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec10832608/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec10832608.dir/build.make CMakeFiles/cmTryCompileExec10832608.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec10832608.dir/src.c.o
+/usr/bin/clang   -DYUNI_HAS_C_FLAG_MSSE   -msse -o CMakeFiles/cmTryCompileExec10832608.dir/src.c.o   -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec10832608
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec10832608.dir/link.txt --verbose=1
+/usr/bin/clang   -DYUNI_HAS_C_FLAG_MSSE    CMakeFiles/cmTryCompileExec10832608.dir/src.c.o  -o cmTryCompileExec10832608 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test YUNI_HAS_CXX_FLAG_MSSE2 succeded with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1406863556/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1406863556.dir/build.make CMakeFiles/cmTryCompileExec1406863556.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1406863556.dir/src.cxx.o
+/usr/bin/clang++    -g -DYUNI_HAS_CXX_FLAG_MSSE2   -msse2 -o CMakeFiles/cmTryCompileExec1406863556.dir/src.cxx.o -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec1406863556
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1406863556.dir/link.txt --verbose=1
+/usr/bin/clang++   -g -DYUNI_HAS_CXX_FLAG_MSSE2    CMakeFiles/cmTryCompileExec1406863556.dir/src.cxx.o  -o cmTryCompileExec1406863556 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C SOURCE FILE Test YUNI_HAS_C_FLAG_MSSE2 succeded with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2286117407/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2286117407.dir/build.make CMakeFiles/cmTryCompileExec2286117407.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2286117407.dir/src.c.o
+/usr/bin/clang   -DYUNI_HAS_C_FLAG_MSSE2   -msse2 -o CMakeFiles/cmTryCompileExec2286117407.dir/src.c.o   -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec2286117407
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2286117407.dir/link.txt --verbose=1
+/usr/bin/clang   -DYUNI_HAS_C_FLAG_MSSE2    CMakeFiles/cmTryCompileExec2286117407.dir/src.c.o  -o cmTryCompileExec2286117407 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test YUNI_HAS_CXX_FLAG_VISIBILITY_HIDDEN succeded with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1268759465/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1268759465.dir/build.make CMakeFiles/cmTryCompileExec1268759465.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1268759465.dir/src.cxx.o
+/usr/bin/clang++    -g -DYUNI_HAS_CXX_FLAG_VISIBILITY_HIDDEN   -fvisibility=hidden -o CMakeFiles/cmTryCompileExec1268759465.dir/src.cxx.o -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec1268759465
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1268759465.dir/link.txt --verbose=1
+/usr/bin/clang++   -g -DYUNI_HAS_CXX_FLAG_VISIBILITY_HIDDEN    CMakeFiles/cmTryCompileExec1268759465.dir/src.cxx.o  -o cmTryCompileExec1268759465 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C SOURCE FILE Test YUNI_HAS_C_FLAG_VISIBILITY_HIDDEN succeded with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2094823151/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2094823151.dir/build.make CMakeFiles/cmTryCompileExec2094823151.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2094823151.dir/src.c.o
+/usr/bin/clang   -DYUNI_HAS_C_FLAG_VISIBILITY_HIDDEN   -fvisibility=hidden -o CMakeFiles/cmTryCompileExec2094823151.dir/src.c.o   -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec2094823151
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2094823151.dir/link.txt --verbose=1
+/usr/bin/clang   -DYUNI_HAS_C_FLAG_VISIBILITY_HIDDEN    CMakeFiles/cmTryCompileExec2094823151.dir/src.c.o  -o cmTryCompileExec2094823151 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test YUNI_HAS_CXX_FLAG_DEBUG_G succeded with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2199514466/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2199514466.dir/build.make CMakeFiles/cmTryCompileExec2199514466.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2199514466.dir/src.cxx.o
+/usr/bin/clang++    -g -DYUNI_HAS_CXX_FLAG_DEBUG_G   -g -o CMakeFiles/cmTryCompileExec2199514466.dir/src.cxx.o -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec2199514466
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2199514466.dir/link.txt --verbose=1
+/usr/bin/clang++   -g -DYUNI_HAS_CXX_FLAG_DEBUG_G    CMakeFiles/cmTryCompileExec2199514466.dir/src.cxx.o  -o cmTryCompileExec2199514466 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C SOURCE FILE Test YUNI_HAS_C_FLAG_DEBUG_G succeded with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2498892392/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2498892392.dir/build.make CMakeFiles/cmTryCompileExec2498892392.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2498892392.dir/src.c.o
+/usr/bin/clang   -DYUNI_HAS_C_FLAG_DEBUG_G   -g -o CMakeFiles/cmTryCompileExec2498892392.dir/src.c.o   -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec2498892392
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2498892392.dir/link.txt --verbose=1
+/usr/bin/clang   -DYUNI_HAS_C_FLAG_DEBUG_G    CMakeFiles/cmTryCompileExec2498892392.dir/src.c.o  -o cmTryCompileExec2498892392 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test YUNI_HAS_CXX_FLAG_DEBUG_GFULL succeded with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1947358465/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1947358465.dir/build.make CMakeFiles/cmTryCompileExec1947358465.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1947358465.dir/src.cxx.o
+/usr/bin/clang++    -g -DYUNI_HAS_CXX_FLAG_DEBUG_GFULL   -gfull -o CMakeFiles/cmTryCompileExec1947358465.dir/src.cxx.o -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec1947358465
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1947358465.dir/link.txt --verbose=1
+/usr/bin/clang++   -g -DYUNI_HAS_CXX_FLAG_DEBUG_GFULL    CMakeFiles/cmTryCompileExec1947358465.dir/src.cxx.o  -o cmTryCompileExec1947358465 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C SOURCE FILE Test YUNI_HAS_C_FLAG_DEBUG_GFULL succeded with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3898028112/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3898028112.dir/build.make CMakeFiles/cmTryCompileExec3898028112.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3898028112.dir/src.c.o
+/usr/bin/clang   -DYUNI_HAS_C_FLAG_DEBUG_GFULL   -gfull -o CMakeFiles/cmTryCompileExec3898028112.dir/src.c.o   -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec3898028112
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3898028112.dir/link.txt --verbose=1
+/usr/bin/clang   -DYUNI_HAS_C_FLAG_DEBUG_GFULL    CMakeFiles/cmTryCompileExec3898028112.dir/src.c.o  -o cmTryCompileExec3898028112 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test YUNI_HAS_CXX_FLAG_DEBUG_GDB succeded with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1299996606/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1299996606.dir/build.make CMakeFiles/cmTryCompileExec1299996606.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1299996606.dir/src.cxx.o
+/usr/bin/clang++    -g -DYUNI_HAS_CXX_FLAG_DEBUG_GDB   -ggdb -o CMakeFiles/cmTryCompileExec1299996606.dir/src.cxx.o -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec1299996606
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1299996606.dir/link.txt --verbose=1
+/usr/bin/clang++   -g -DYUNI_HAS_CXX_FLAG_DEBUG_GDB    CMakeFiles/cmTryCompileExec1299996606.dir/src.cxx.o  -o cmTryCompileExec1299996606 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C SOURCE FILE Test YUNI_HAS_C_FLAG_DEBUG_GDB succeded with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1999204291/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1999204291.dir/build.make CMakeFiles/cmTryCompileExec1999204291.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1999204291.dir/src.c.o
+/usr/bin/clang   -DYUNI_HAS_C_FLAG_DEBUG_GDB   -ggdb -o CMakeFiles/cmTryCompileExec1999204291.dir/src.c.o   -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec1999204291
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1999204291.dir/link.txt --verbose=1
+/usr/bin/clang   -DYUNI_HAS_C_FLAG_DEBUG_GDB    CMakeFiles/cmTryCompileExec1999204291.dir/src.c.o  -o cmTryCompileExec1999204291 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test YUNI_HAS_CXX_FLAG_DEBUG_GDB3 succeded with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2338707419/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2338707419.dir/build.make CMakeFiles/cmTryCompileExec2338707419.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2338707419.dir/src.cxx.o
+/usr/bin/clang++    -g -DYUNI_HAS_CXX_FLAG_DEBUG_GDB3   -ggdb3 -o CMakeFiles/cmTryCompileExec2338707419.dir/src.cxx.o -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec2338707419
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2338707419.dir/link.txt --verbose=1
+/usr/bin/clang++   -g -DYUNI_HAS_CXX_FLAG_DEBUG_GDB3    CMakeFiles/cmTryCompileExec2338707419.dir/src.cxx.o  -o cmTryCompileExec2338707419 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C SOURCE FILE Test YUNI_HAS_C_FLAG_DEBUG_GDB3 succeded with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1710237443/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1710237443.dir/build.make CMakeFiles/cmTryCompileExec1710237443.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1710237443.dir/src.c.o
+/usr/bin/clang   -DYUNI_HAS_C_FLAG_DEBUG_GDB3   -ggdb3 -o CMakeFiles/cmTryCompileExec1710237443.dir/src.c.o   -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec1710237443
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1710237443.dir/link.txt --verbose=1
+/usr/bin/clang   -DYUNI_HAS_C_FLAG_DEBUG_GDB3    CMakeFiles/cmTryCompileExec1710237443.dir/src.c.o  -o cmTryCompileExec1710237443 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test YUNI_HAS_CXX_FLAG_W succeded with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3157808441/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3157808441.dir/build.make CMakeFiles/cmTryCompileExec3157808441.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3157808441.dir/src.cxx.o
+/usr/bin/clang++    -g -DYUNI_HAS_CXX_FLAG_W   -W -o CMakeFiles/cmTryCompileExec3157808441.dir/src.cxx.o -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec3157808441
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3157808441.dir/link.txt --verbose=1
+/usr/bin/clang++   -g -DYUNI_HAS_CXX_FLAG_W    CMakeFiles/cmTryCompileExec3157808441.dir/src.cxx.o  -o cmTryCompileExec3157808441 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C SOURCE FILE Test YUNI_HAS_C_FLAG_W succeded with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec861205300/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec861205300.dir/build.make CMakeFiles/cmTryCompileExec861205300.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec861205300.dir/src.c.o
+/usr/bin/clang   -DYUNI_HAS_C_FLAG_W   -W -o CMakeFiles/cmTryCompileExec861205300.dir/src.c.o   -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec861205300
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec861205300.dir/link.txt --verbose=1
+/usr/bin/clang   -DYUNI_HAS_C_FLAG_W    CMakeFiles/cmTryCompileExec861205300.dir/src.c.o  -o cmTryCompileExec861205300 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test YUNI_HAS_CXX_FLAG_W_ALL succeded with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2128629867/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2128629867.dir/build.make CMakeFiles/cmTryCompileExec2128629867.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2128629867.dir/src.cxx.o
+/usr/bin/clang++    -g -DYUNI_HAS_CXX_FLAG_W_ALL   -Wall -o CMakeFiles/cmTryCompileExec2128629867.dir/src.cxx.o -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec2128629867
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2128629867.dir/link.txt --verbose=1
+/usr/bin/clang++   -g -DYUNI_HAS_CXX_FLAG_W_ALL    CMakeFiles/cmTryCompileExec2128629867.dir/src.cxx.o  -o cmTryCompileExec2128629867 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C SOURCE FILE Test YUNI_HAS_C_FLAG_W_ALL succeded with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec616481541/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec616481541.dir/build.make CMakeFiles/cmTryCompileExec616481541.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec616481541.dir/src.c.o
+/usr/bin/clang   -DYUNI_HAS_C_FLAG_W_ALL   -Wall -o CMakeFiles/cmTryCompileExec616481541.dir/src.c.o   -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec616481541
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec616481541.dir/link.txt --verbose=1
+/usr/bin/clang   -DYUNI_HAS_C_FLAG_W_ALL    CMakeFiles/cmTryCompileExec616481541.dir/src.c.o  -o cmTryCompileExec616481541 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test YUNI_HAS_CXX_FLAG_W_EXTRA succeded with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1312726282/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1312726282.dir/build.make CMakeFiles/cmTryCompileExec1312726282.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1312726282.dir/src.cxx.o
+/usr/bin/clang++    -g -DYUNI_HAS_CXX_FLAG_W_EXTRA   -Wextra -o CMakeFiles/cmTryCompileExec1312726282.dir/src.cxx.o -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec1312726282
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1312726282.dir/link.txt --verbose=1
+/usr/bin/clang++   -g -DYUNI_HAS_CXX_FLAG_W_EXTRA    CMakeFiles/cmTryCompileExec1312726282.dir/src.cxx.o  -o cmTryCompileExec1312726282 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C SOURCE FILE Test YUNI_HAS_C_FLAG_W_EXTRA succeded with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2262280689/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2262280689.dir/build.make CMakeFiles/cmTryCompileExec2262280689.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2262280689.dir/src.c.o
+/usr/bin/clang   -DYUNI_HAS_C_FLAG_W_EXTRA   -Wextra -o CMakeFiles/cmTryCompileExec2262280689.dir/src.c.o   -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec2262280689
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2262280689.dir/link.txt --verbose=1
+/usr/bin/clang   -DYUNI_HAS_C_FLAG_W_EXTRA    CMakeFiles/cmTryCompileExec2262280689.dir/src.c.o  -o cmTryCompileExec2262280689 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test YUNI_HAS_CXX_FLAG_W_UNUSED_PARAMETER succeded with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2218683079/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2218683079.dir/build.make CMakeFiles/cmTryCompileExec2218683079.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2218683079.dir/src.cxx.o
+/usr/bin/clang++    -g -DYUNI_HAS_CXX_FLAG_W_UNUSED_PARAMETER   -Wunused-parameter -o CMakeFiles/cmTryCompileExec2218683079.dir/src.cxx.o -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec2218683079
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2218683079.dir/link.txt --verbose=1
+/usr/bin/clang++   -g -DYUNI_HAS_CXX_FLAG_W_UNUSED_PARAMETER    CMakeFiles/cmTryCompileExec2218683079.dir/src.cxx.o  -o cmTryCompileExec2218683079 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C SOURCE FILE Test YUNI_HAS_C_FLAG_W_UNUSED_PARAMETER succeded with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1939638799/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1939638799.dir/build.make CMakeFiles/cmTryCompileExec1939638799.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1939638799.dir/src.c.o
+/usr/bin/clang   -DYUNI_HAS_C_FLAG_W_UNUSED_PARAMETER   -Wunused-parameter -o CMakeFiles/cmTryCompileExec1939638799.dir/src.c.o   -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec1939638799
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1939638799.dir/link.txt --verbose=1
+/usr/bin/clang   -DYUNI_HAS_C_FLAG_W_UNUSED_PARAMETER    CMakeFiles/cmTryCompileExec1939638799.dir/src.c.o  -o cmTryCompileExec1939638799 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test YUNI_HAS_CXX_FLAG_W_CONVERSION succeded with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3669034258/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3669034258.dir/build.make CMakeFiles/cmTryCompileExec3669034258.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3669034258.dir/src.cxx.o
+/usr/bin/clang++    -g -DYUNI_HAS_CXX_FLAG_W_CONVERSION   -Wconversion -o CMakeFiles/cmTryCompileExec3669034258.dir/src.cxx.o -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec3669034258
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3669034258.dir/link.txt --verbose=1
+/usr/bin/clang++   -g -DYUNI_HAS_CXX_FLAG_W_CONVERSION    CMakeFiles/cmTryCompileExec3669034258.dir/src.cxx.o  -o cmTryCompileExec3669034258 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C SOURCE FILE Test YUNI_HAS_C_FLAG_W_CONVERSION succeded with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3182192236/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3182192236.dir/build.make CMakeFiles/cmTryCompileExec3182192236.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3182192236.dir/src.c.o
+/usr/bin/clang   -DYUNI_HAS_C_FLAG_W_CONVERSION   -Wconversion -o CMakeFiles/cmTryCompileExec3182192236.dir/src.c.o   -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec3182192236
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3182192236.dir/link.txt --verbose=1
+/usr/bin/clang   -DYUNI_HAS_C_FLAG_W_CONVERSION    CMakeFiles/cmTryCompileExec3182192236.dir/src.c.o  -o cmTryCompileExec3182192236 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test YUNI_HAS_CXX_FLAG_W_OVERLOADED_VIRTUAL succeded with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec519774207/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec519774207.dir/build.make CMakeFiles/cmTryCompileExec519774207.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec519774207.dir/src.cxx.o
+/usr/bin/clang++    -g -DYUNI_HAS_CXX_FLAG_W_OVERLOADED_VIRTUAL   -Woverloaded-virtual -o CMakeFiles/cmTryCompileExec519774207.dir/src.cxx.o -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec519774207
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec519774207.dir/link.txt --verbose=1
+/usr/bin/clang++   -g -DYUNI_HAS_CXX_FLAG_W_OVERLOADED_VIRTUAL    CMakeFiles/cmTryCompileExec519774207.dir/src.cxx.o  -o cmTryCompileExec519774207 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C SOURCE FILE Test YUNI_HAS_C_FLAG_W_OVERLOADED_VIRTUAL succeded with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3838047548/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3838047548.dir/build.make CMakeFiles/cmTryCompileExec3838047548.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3838047548.dir/src.c.o
+/usr/bin/clang   -DYUNI_HAS_C_FLAG_W_OVERLOADED_VIRTUAL   -Woverloaded-virtual -o CMakeFiles/cmTryCompileExec3838047548.dir/src.c.o   -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec3838047548
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3838047548.dir/link.txt --verbose=1
+/usr/bin/clang   -DYUNI_HAS_C_FLAG_W_OVERLOADED_VIRTUAL    CMakeFiles/cmTryCompileExec3838047548.dir/src.c.o  -o cmTryCompileExec3838047548 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test YUNI_HAS_CXX_FLAG_W_UNDEF succeded with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2592229657/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2592229657.dir/build.make CMakeFiles/cmTryCompileExec2592229657.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2592229657.dir/src.cxx.o
+/usr/bin/clang++    -g -DYUNI_HAS_CXX_FLAG_W_UNDEF   -Wundef -o CMakeFiles/cmTryCompileExec2592229657.dir/src.cxx.o -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec2592229657
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2592229657.dir/link.txt --verbose=1
+/usr/bin/clang++   -g -DYUNI_HAS_CXX_FLAG_W_UNDEF    CMakeFiles/cmTryCompileExec2592229657.dir/src.cxx.o  -o cmTryCompileExec2592229657 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C SOURCE FILE Test YUNI_HAS_C_FLAG_W_UNDEF succeded with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1164572061/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1164572061.dir/build.make CMakeFiles/cmTryCompileExec1164572061.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1164572061.dir/src.c.o
+/usr/bin/clang   -DYUNI_HAS_C_FLAG_W_UNDEF   -Wundef -o CMakeFiles/cmTryCompileExec1164572061.dir/src.c.o   -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec1164572061
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1164572061.dir/link.txt --verbose=1
+/usr/bin/clang   -DYUNI_HAS_C_FLAG_W_UNDEF    CMakeFiles/cmTryCompileExec1164572061.dir/src.c.o  -o cmTryCompileExec1164572061 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test YUNI_HAS_CXX_FLAG_W_FLOAT_EQUAL succeded with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3455972170/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3455972170.dir/build.make CMakeFiles/cmTryCompileExec3455972170.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3455972170.dir/src.cxx.o
+/usr/bin/clang++    -g -DYUNI_HAS_CXX_FLAG_W_FLOAT_EQUAL   -Wfloat-equal -o CMakeFiles/cmTryCompileExec3455972170.dir/src.cxx.o -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec3455972170
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3455972170.dir/link.txt --verbose=1
+/usr/bin/clang++   -g -DYUNI_HAS_CXX_FLAG_W_FLOAT_EQUAL    CMakeFiles/cmTryCompileExec3455972170.dir/src.cxx.o  -o cmTryCompileExec3455972170 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C SOURCE FILE Test YUNI_HAS_C_FLAG_W_FLOAT_EQUAL succeded with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1512615460/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1512615460.dir/build.make CMakeFiles/cmTryCompileExec1512615460.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1512615460.dir/src.c.o
+/usr/bin/clang   -DYUNI_HAS_C_FLAG_W_FLOAT_EQUAL   -Wfloat-equal -o CMakeFiles/cmTryCompileExec1512615460.dir/src.c.o   -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec1512615460
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1512615460.dir/link.txt --verbose=1
+/usr/bin/clang   -DYUNI_HAS_C_FLAG_W_FLOAT_EQUAL    CMakeFiles/cmTryCompileExec1512615460.dir/src.c.o  -o cmTryCompileExec1512615460 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test YUNI_HAS_CXX_FLAG_W_MISSING_NORETURN succeded with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec808434246/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec808434246.dir/build.make CMakeFiles/cmTryCompileExec808434246.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec808434246.dir/src.cxx.o
+/usr/bin/clang++    -g -DYUNI_HAS_CXX_FLAG_W_MISSING_NORETURN   -Wmissing-noreturn -o CMakeFiles/cmTryCompileExec808434246.dir/src.cxx.o -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec808434246
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec808434246.dir/link.txt --verbose=1
+/usr/bin/clang++   -g -DYUNI_HAS_CXX_FLAG_W_MISSING_NORETURN    CMakeFiles/cmTryCompileExec808434246.dir/src.cxx.o  -o cmTryCompileExec808434246 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C SOURCE FILE Test YUNI_HAS_C_FLAG_W_MISSING_NORETURN succeded with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3117371995/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3117371995.dir/build.make CMakeFiles/cmTryCompileExec3117371995.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3117371995.dir/src.c.o
+/usr/bin/clang   -DYUNI_HAS_C_FLAG_W_MISSING_NORETURN   -Wmissing-noreturn -o CMakeFiles/cmTryCompileExec3117371995.dir/src.c.o   -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec3117371995
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3117371995.dir/link.txt --verbose=1
+/usr/bin/clang   -DYUNI_HAS_C_FLAG_W_MISSING_NORETURN    CMakeFiles/cmTryCompileExec3117371995.dir/src.c.o  -o cmTryCompileExec3117371995 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test YUNI_HAS_CXX_FLAG_W_CAST_ALIGN succeded with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2484987590/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2484987590.dir/build.make CMakeFiles/cmTryCompileExec2484987590.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2484987590.dir/src.cxx.o
+/usr/bin/clang++    -g -DYUNI_HAS_CXX_FLAG_W_CAST_ALIGN   -Wcast-align -o CMakeFiles/cmTryCompileExec2484987590.dir/src.cxx.o -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec2484987590
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2484987590.dir/link.txt --verbose=1
+/usr/bin/clang++   -g -DYUNI_HAS_CXX_FLAG_W_CAST_ALIGN    CMakeFiles/cmTryCompileExec2484987590.dir/src.cxx.o  -o cmTryCompileExec2484987590 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C SOURCE FILE Test YUNI_HAS_C_FLAG_W_CAST_ALIGN succeded with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec709188016/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec709188016.dir/build.make CMakeFiles/cmTryCompileExec709188016.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec709188016.dir/src.c.o
+/usr/bin/clang   -DYUNI_HAS_C_FLAG_W_CAST_ALIGN   -Wcast-align -o CMakeFiles/cmTryCompileExec709188016.dir/src.c.o   -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec709188016
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec709188016.dir/link.txt --verbose=1
+/usr/bin/clang   -DYUNI_HAS_C_FLAG_W_CAST_ALIGN    CMakeFiles/cmTryCompileExec709188016.dir/src.c.o  -o cmTryCompileExec709188016 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test YUNI_HAS_CXX_FLAG_W_UNINITIALIZED succeded with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2074554982/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2074554982.dir/build.make CMakeFiles/cmTryCompileExec2074554982.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2074554982.dir/src.cxx.o
+/usr/bin/clang++    -g -DYUNI_HAS_CXX_FLAG_W_UNINITIALIZED   -Wuninitialized -o CMakeFiles/cmTryCompileExec2074554982.dir/src.cxx.o -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec2074554982
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2074554982.dir/link.txt --verbose=1
+/usr/bin/clang++   -g -DYUNI_HAS_CXX_FLAG_W_UNINITIALIZED    CMakeFiles/cmTryCompileExec2074554982.dir/src.cxx.o  -o cmTryCompileExec2074554982 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C SOURCE FILE Test YUNI_HAS_C_FLAG_W_UNINITIALIZED succeded with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4151437258/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4151437258.dir/build.make CMakeFiles/cmTryCompileExec4151437258.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4151437258.dir/src.c.o
+/usr/bin/clang   -DYUNI_HAS_C_FLAG_W_UNINITIALIZED   -Wuninitialized -o CMakeFiles/cmTryCompileExec4151437258.dir/src.c.o   -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec4151437258
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4151437258.dir/link.txt --verbose=1
+/usr/bin/clang   -DYUNI_HAS_C_FLAG_W_UNINITIALIZED    CMakeFiles/cmTryCompileExec4151437258.dir/src.c.o  -o cmTryCompileExec4151437258 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test YUNI_HAS_CXX_FLAG_W_DOCUMENTATION succeded with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3233488860/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3233488860.dir/build.make CMakeFiles/cmTryCompileExec3233488860.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3233488860.dir/src.cxx.o
+/usr/bin/clang++    -g -DYUNI_HAS_CXX_FLAG_W_DOCUMENTATION   -Wdocumentation -o CMakeFiles/cmTryCompileExec3233488860.dir/src.cxx.o -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec3233488860
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3233488860.dir/link.txt --verbose=1
+/usr/bin/clang++   -g -DYUNI_HAS_CXX_FLAG_W_DOCUMENTATION    CMakeFiles/cmTryCompileExec3233488860.dir/src.cxx.o  -o cmTryCompileExec3233488860 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C SOURCE FILE Test YUNI_HAS_C_FLAG_W_DOCUMENTATION succeded with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec757866717/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec757866717.dir/build.make CMakeFiles/cmTryCompileExec757866717.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec757866717.dir/src.c.o
+/usr/bin/clang   -DYUNI_HAS_C_FLAG_W_DOCUMENTATION   -Wdocumentation -o CMakeFiles/cmTryCompileExec757866717.dir/src.c.o   -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec757866717
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec757866717.dir/link.txt --verbose=1
+/usr/bin/clang   -DYUNI_HAS_C_FLAG_W_DOCUMENTATION    CMakeFiles/cmTryCompileExec757866717.dir/src.c.o  -o cmTryCompileExec757866717 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1843718438/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1843718438.dir/build.make CMakeFiles/cmTryCompileExec1843718438.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1843718438.dir/CheckIncludeFile.c.o
+/usr/bin/clang    -o CMakeFiles/cmTryCompileExec1843718438.dir/CheckIncludeFile.c.o   -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1843718438
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1843718438.dir/link.txt --verbose=1
+/usr/bin/clang       CMakeFiles/cmTryCompileExec1843718438.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1843718438 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdio.h exists passed with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2061788987/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2061788987.dir/build.make CMakeFiles/cmTryCompileExec2061788987.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2061788987.dir/CheckIncludeFile.c.o
+/usr/bin/clang    -o CMakeFiles/cmTryCompileExec2061788987.dir/CheckIncludeFile.c.o   -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2061788987
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2061788987.dir/link.txt --verbose=1
+/usr/bin/clang       CMakeFiles/cmTryCompileExec2061788987.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2061788987 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1007791108/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1007791108.dir/build.make CMakeFiles/cmTryCompileExec1007791108.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1007791108.dir/CheckIncludeFile.c.o
+/usr/bin/clang    -o CMakeFiles/cmTryCompileExec1007791108.dir/CheckIncludeFile.c.o   -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1007791108
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1007791108.dir/link.txt --verbose=1
+/usr/bin/clang       CMakeFiles/cmTryCompileExec1007791108.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1007791108 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file time.h exists passed with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec188354701/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec188354701.dir/build.make CMakeFiles/cmTryCompileExec188354701.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec188354701.dir/CheckIncludeFile.c.o
+/usr/bin/clang    -o CMakeFiles/cmTryCompileExec188354701.dir/CheckIncludeFile.c.o   -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec188354701
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec188354701.dir/link.txt --verbose=1
+/usr/bin/clang       CMakeFiles/cmTryCompileExec188354701.dir/CheckIncludeFile.c.o  -o cmTryCompileExec188354701 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file assert.h exists passed with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1116451583/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1116451583.dir/build.make CMakeFiles/cmTryCompileExec1116451583.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1116451583.dir/CheckIncludeFile.c.o
+/usr/bin/clang    -o CMakeFiles/cmTryCompileExec1116451583.dir/CheckIncludeFile.c.o   -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1116451583
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1116451583.dir/link.txt --verbose=1
+/usr/bin/clang       CMakeFiles/cmTryCompileExec1116451583.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1116451583 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file cassert exists passed with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3529459931/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3529459931.dir/build.make CMakeFiles/cmTryCompileExec3529459931.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3529459931.dir/CheckIncludeFile.cxx.o
+/usr/bin/clang++    -D_REENTRANT -DXUSE_MTSAFE_API -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -fPIC  -std=c++14 -stdlib=libstdc++ -fvisibility=hidden -g -gfull -ggdb -ggdb3 -W -Wall -Wextra -Wunused-parameter -Wconversion -Woverloaded-virtual -Wundef -Wfloat-equal -Wmissing-noreturn -Wcast-align -Wuninitialized -Wdocumentation            -o CMakeFiles/cmTryCompileExec3529459931.dir/CheckIncludeFile.cxx.o -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTryCompileExec3529459931
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3529459931.dir/link.txt --verbose=1
+/usr/bin/clang++    -D_REENTRANT -DXUSE_MTSAFE_API -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -fPIC  -std=c++14 -stdlib=libstdc++ -fvisibility=hidden -g -gfull -ggdb -ggdb3 -W -Wall -Wextra -Wunused-parameter -Wconversion -Woverloaded-virtual -Wundef -Wfloat-equal -Wmissing-noreturn -Wcast-align -Wuninitialized -Wdocumentation             CMakeFiles/cmTryCompileExec3529459931.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec3529459931 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file errno.h exists passed with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec770738474/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec770738474.dir/build.make CMakeFiles/cmTryCompileExec770738474.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec770738474.dir/CheckIncludeFile.c.o
+/usr/bin/clang    -o CMakeFiles/cmTryCompileExec770738474.dir/CheckIncludeFile.c.o   -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec770738474
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec770738474.dir/link.txt --verbose=1
+/usr/bin/clang       CMakeFiles/cmTryCompileExec770738474.dir/CheckIncludeFile.c.o  -o cmTryCompileExec770738474 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file cstddef exists passed with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2526277595/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2526277595.dir/build.make CMakeFiles/cmTryCompileExec2526277595.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2526277595.dir/CheckIncludeFile.cxx.o
+/usr/bin/clang++    -D_REENTRANT -DXUSE_MTSAFE_API -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -fPIC  -std=c++14 -stdlib=libstdc++ -fvisibility=hidden -g -gfull -ggdb -ggdb3 -W -Wall -Wextra -Wunused-parameter -Wconversion -Woverloaded-virtual -Wundef -Wfloat-equal -Wmissing-noreturn -Wcast-align -Wuninitialized -Wdocumentation            -o CMakeFiles/cmTryCompileExec2526277595.dir/CheckIncludeFile.cxx.o -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTryCompileExec2526277595
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2526277595.dir/link.txt --verbose=1
+/usr/bin/clang++    -D_REENTRANT -DXUSE_MTSAFE_API -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -fPIC  -std=c++14 -stdlib=libstdc++ -fvisibility=hidden -g -gfull -ggdb -ggdb3 -W -Wall -Wextra -Wunused-parameter -Wconversion -Woverloaded-virtual -Wundef -Wfloat-equal -Wmissing-noreturn -Wcast-align -Wuninitialized -Wdocumentation             CMakeFiles/cmTryCompileExec2526277595.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec2526277595 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file climits exists passed with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3338826215/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3338826215.dir/build.make CMakeFiles/cmTryCompileExec3338826215.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3338826215.dir/CheckIncludeFile.cxx.o
+/usr/bin/clang++    -D_REENTRANT -DXUSE_MTSAFE_API -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -fPIC  -std=c++14 -stdlib=libstdc++ -fvisibility=hidden -g -gfull -ggdb -ggdb3 -W -Wall -Wextra -Wunused-parameter -Wconversion -Woverloaded-virtual -Wundef -Wfloat-equal -Wmissing-noreturn -Wcast-align -Wuninitialized -Wdocumentation            -o CMakeFiles/cmTryCompileExec3338826215.dir/CheckIncludeFile.cxx.o -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTryCompileExec3338826215
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3338826215.dir/link.txt --verbose=1
+/usr/bin/clang++    -D_REENTRANT -DXUSE_MTSAFE_API -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -fPIC  -std=c++14 -stdlib=libstdc++ -fvisibility=hidden -g -gfull -ggdb -ggdb3 -W -Wall -Wextra -Wunused-parameter -Wconversion -Woverloaded-virtual -Wundef -Wfloat-equal -Wmissing-noreturn -Wcast-align -Wuninitialized -Wdocumentation             CMakeFiles/cmTryCompileExec3338826215.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec3338826215 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file vector exists passed with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3691814031/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3691814031.dir/build.make CMakeFiles/cmTryCompileExec3691814031.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3691814031.dir/CheckIncludeFile.cxx.o
+/usr/bin/clang++    -D_REENTRANT -DXUSE_MTSAFE_API -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -fPIC  -std=c++14 -stdlib=libstdc++ -fvisibility=hidden -g -gfull -ggdb -ggdb3 -W -Wall -Wextra -Wunused-parameter -Wconversion -Woverloaded-virtual -Wundef -Wfloat-equal -Wmissing-noreturn -Wcast-align -Wuninitialized -Wdocumentation            -o CMakeFiles/cmTryCompileExec3691814031.dir/CheckIncludeFile.cxx.o -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTryCompileExec3691814031
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3691814031.dir/link.txt --verbose=1
+/usr/bin/clang++    -D_REENTRANT -DXUSE_MTSAFE_API -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -fPIC  -std=c++14 -stdlib=libstdc++ -fvisibility=hidden -g -gfull -ggdb -ggdb3 -W -Wall -Wextra -Wunused-parameter -Wconversion -Woverloaded-virtual -Wundef -Wfloat-equal -Wmissing-noreturn -Wcast-align -Wuninitialized -Wdocumentation             CMakeFiles/cmTryCompileExec3691814031.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec3691814031 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file list exists passed with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2944670792/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2944670792.dir/build.make CMakeFiles/cmTryCompileExec2944670792.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2944670792.dir/CheckIncludeFile.cxx.o
+/usr/bin/clang++    -D_REENTRANT -DXUSE_MTSAFE_API -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -fPIC  -std=c++14 -stdlib=libstdc++ -fvisibility=hidden -g -gfull -ggdb -ggdb3 -W -Wall -Wextra -Wunused-parameter -Wconversion -Woverloaded-virtual -Wundef -Wfloat-equal -Wmissing-noreturn -Wcast-align -Wuninitialized -Wdocumentation            -o CMakeFiles/cmTryCompileExec2944670792.dir/CheckIncludeFile.cxx.o -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTryCompileExec2944670792
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2944670792.dir/link.txt --verbose=1
+/usr/bin/clang++    -D_REENTRANT -DXUSE_MTSAFE_API -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -fPIC  -std=c++14 -stdlib=libstdc++ -fvisibility=hidden -g -gfull -ggdb -ggdb3 -W -Wall -Wextra -Wunused-parameter -Wconversion -Woverloaded-virtual -Wundef -Wfloat-equal -Wmissing-noreturn -Wcast-align -Wuninitialized -Wdocumentation             CMakeFiles/cmTryCompileExec2944670792.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec2944670792 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file map exists passed with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2329234187/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2329234187.dir/build.make CMakeFiles/cmTryCompileExec2329234187.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2329234187.dir/CheckIncludeFile.cxx.o
+/usr/bin/clang++    -D_REENTRANT -DXUSE_MTSAFE_API -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -fPIC  -std=c++14 -stdlib=libstdc++ -fvisibility=hidden -g -gfull -ggdb -ggdb3 -W -Wall -Wextra -Wunused-parameter -Wconversion -Woverloaded-virtual -Wundef -Wfloat-equal -Wmissing-noreturn -Wcast-align -Wuninitialized -Wdocumentation            -o CMakeFiles/cmTryCompileExec2329234187.dir/CheckIncludeFile.cxx.o -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTryCompileExec2329234187
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2329234187.dir/link.txt --verbose=1
+/usr/bin/clang++    -D_REENTRANT -DXUSE_MTSAFE_API -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -fPIC  -std=c++14 -stdlib=libstdc++ -fvisibility=hidden -g -gfull -ggdb -ggdb3 -W -Wall -Wextra -Wunused-parameter -Wconversion -Woverloaded-virtual -Wundef -Wfloat-equal -Wmissing-noreturn -Wcast-align -Wuninitialized -Wdocumentation             CMakeFiles/cmTryCompileExec2329234187.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec2329234187 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file algorithm exists passed with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1521916801/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1521916801.dir/build.make CMakeFiles/cmTryCompileExec1521916801.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1521916801.dir/CheckIncludeFile.cxx.o
+/usr/bin/clang++    -D_REENTRANT -DXUSE_MTSAFE_API -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -fPIC  -std=c++14 -stdlib=libstdc++ -fvisibility=hidden -g -gfull -ggdb -ggdb3 -W -Wall -Wextra -Wunused-parameter -Wconversion -Woverloaded-virtual -Wundef -Wfloat-equal -Wmissing-noreturn -Wcast-align -Wuninitialized -Wdocumentation            -o CMakeFiles/cmTryCompileExec1521916801.dir/CheckIncludeFile.cxx.o -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTryCompileExec1521916801
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1521916801.dir/link.txt --verbose=1
+/usr/bin/clang++    -D_REENTRANT -DXUSE_MTSAFE_API -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -fPIC  -std=c++14 -stdlib=libstdc++ -fvisibility=hidden -g -gfull -ggdb -ggdb3 -W -Wall -Wextra -Wunused-parameter -Wconversion -Woverloaded-virtual -Wundef -Wfloat-equal -Wmissing-noreturn -Wcast-align -Wuninitialized -Wdocumentation             CMakeFiles/cmTryCompileExec1521916801.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec1521916801 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file iostream exists passed with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2613955503/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2613955503.dir/build.make CMakeFiles/cmTryCompileExec2613955503.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2613955503.dir/CheckIncludeFile.cxx.o
+/usr/bin/clang++    -D_REENTRANT -DXUSE_MTSAFE_API -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -fPIC  -std=c++14 -stdlib=libstdc++ -fvisibility=hidden -g -gfull -ggdb -ggdb3 -W -Wall -Wextra -Wunused-parameter -Wconversion -Woverloaded-virtual -Wundef -Wfloat-equal -Wmissing-noreturn -Wcast-align -Wuninitialized -Wdocumentation            -o CMakeFiles/cmTryCompileExec2613955503.dir/CheckIncludeFile.cxx.o -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTryCompileExec2613955503
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2613955503.dir/link.txt --verbose=1
+/usr/bin/clang++    -D_REENTRANT -DXUSE_MTSAFE_API -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -fPIC  -std=c++14 -stdlib=libstdc++ -fvisibility=hidden -g -gfull -ggdb -ggdb3 -W -Wall -Wextra -Wunused-parameter -Wconversion -Woverloaded-virtual -Wundef -Wfloat-equal -Wmissing-noreturn -Wcast-align -Wuninitialized -Wdocumentation             CMakeFiles/cmTryCompileExec2613955503.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec2613955503 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file dirent.h exists passed with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1541337956/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1541337956.dir/build.make CMakeFiles/cmTryCompileExec1541337956.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1541337956.dir/CheckIncludeFile.c.o
+/usr/bin/clang    -o CMakeFiles/cmTryCompileExec1541337956.dir/CheckIncludeFile.c.o   -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1541337956
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1541337956.dir/link.txt --verbose=1
+/usr/bin/clang       CMakeFiles/cmTryCompileExec1541337956.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1541337956 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4216822576/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4216822576.dir/build.make CMakeFiles/cmTryCompileExec4216822576.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4216822576.dir/CheckIncludeFile.c.o
+/usr/bin/clang    -o CMakeFiles/cmTryCompileExec4216822576.dir/CheckIncludeFile.c.o   -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec4216822576
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4216822576.dir/link.txt --verbose=1
+/usr/bin/clang       CMakeFiles/cmTryCompileExec4216822576.dir/CheckIncludeFile.c.o  -o cmTryCompileExec4216822576 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2989412032/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2989412032.dir/build.make CMakeFiles/cmTryCompileExec2989412032.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2989412032.dir/CheckIncludeFile.c.o
+/usr/bin/clang    -o CMakeFiles/cmTryCompileExec2989412032.dir/CheckIncludeFile.c.o   -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2989412032
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2989412032.dir/link.txt --verbose=1
+/usr/bin/clang       CMakeFiles/cmTryCompileExec2989412032.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2989412032 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3076542766/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3076542766.dir/build.make CMakeFiles/cmTryCompileExec3076542766.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3076542766.dir/CheckIncludeFile.c.o
+/usr/bin/clang    -o CMakeFiles/cmTryCompileExec3076542766.dir/CheckIncludeFile.c.o   -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3076542766
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3076542766.dir/link.txt --verbose=1
+/usr/bin/clang       CMakeFiles/cmTryCompileExec3076542766.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3076542766 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdarg.h exists passed with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1848267915/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1848267915.dir/build.make CMakeFiles/cmTryCompileExec1848267915.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1848267915.dir/CheckIncludeFile.c.o
+/usr/bin/clang    -o CMakeFiles/cmTryCompileExec1848267915.dir/CheckIncludeFile.c.o   -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1848267915
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1848267915.dir/link.txt --verbose=1
+/usr/bin/clang       CMakeFiles/cmTryCompileExec1848267915.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1848267915 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/sendfile.h exists passed with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec828206023/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec828206023.dir/build.make CMakeFiles/cmTryCompileExec828206023.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec828206023.dir/CheckIncludeFile.cxx.o
+/usr/bin/clang++    -D_REENTRANT -DXUSE_MTSAFE_API -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -fPIC  -std=c++14 -stdlib=libstdc++ -fvisibility=hidden -g -gfull -ggdb -ggdb3 -W -Wall -Wextra -Wunused-parameter -Wconversion -Woverloaded-virtual -Wundef -Wfloat-equal -Wmissing-noreturn -Wcast-align -Wuninitialized -Wdocumentation            -o CMakeFiles/cmTryCompileExec828206023.dir/CheckIncludeFile.cxx.o -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTryCompileExec828206023
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec828206023.dir/link.txt --verbose=1
+/usr/bin/clang++    -D_REENTRANT -DXUSE_MTSAFE_API -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -fPIC  -std=c++14 -stdlib=libstdc++ -fvisibility=hidden -g -gfull -ggdb -ggdb3 -W -Wall -Wextra -Wunused-parameter -Wconversion -Woverloaded-virtual -Wundef -Wfloat-equal -Wmissing-noreturn -Wcast-align -Wuninitialized -Wdocumentation             CMakeFiles/cmTryCompileExec828206023.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec828206023 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1342699643/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1342699643.dir/build.make CMakeFiles/cmTryCompileExec1342699643.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1342699643.dir/CheckIncludeFile.c.o
+/usr/bin/clang    -o CMakeFiles/cmTryCompileExec1342699643.dir/CheckIncludeFile.c.o   -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1342699643
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1342699643.dir/link.txt --verbose=1
+/usr/bin/clang       CMakeFiles/cmTryCompileExec1342699643.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1342699643 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+
+Performing C++ SOURCE FILE Test YUNI_HAS_NULLPTR succeded with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec660699328/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec660699328.dir/build.make CMakeFiles/cmTryCompileExec660699328.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec660699328.dir/src.cxx.o
+/usr/bin/clang++    -D_REENTRANT -DXUSE_MTSAFE_API -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -fPIC  -std=c++14 -stdlib=libstdc++ -fvisibility=hidden -g -gfull -ggdb -ggdb3 -W -Wall -Wextra -Wunused-parameter -Wconversion -Woverloaded-virtual -Wundef -Wfloat-equal -Wmissing-noreturn -Wcast-align -Wuninitialized -Wdocumentation         -DYUNI_HAS_NULLPTR -std=c++0x   -o CMakeFiles/cmTryCompileExec660699328.dir/src.cxx.o -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.cxx
+/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.cxx:4:29: warning: unused variable 'a' [-Wunused-variable]
+        class A {}; int main() {A* a = nullptr;return 0;}
+                                   ^
+1 warning generated.
+Linking CXX executable cmTryCompileExec660699328
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec660699328.dir/link.txt --verbose=1
+/usr/bin/clang++    -D_REENTRANT -DXUSE_MTSAFE_API -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -fPIC  -std=c++14 -stdlib=libstdc++ -fvisibility=hidden -g -gfull -ggdb -ggdb3 -W -Wall -Wextra -Wunused-parameter -Wconversion -Woverloaded-virtual -Wundef -Wfloat-equal -Wmissing-noreturn -Wcast-align -Wuninitialized -Wdocumentation         -DYUNI_HAS_NULLPTR -std=c++0x    CMakeFiles/cmTryCompileExec660699328.dir/src.cxx.o  -o cmTryCompileExec660699328 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+	#include <cstddef>
+	typedef decltype(nullptr) NullPtr;
+	class A {}; int main() {A* a = nullptr;return 0;}
+Performing C++ SOURCE FILE Test YUNI_HAS_STL_HASH succeded with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2533162464/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2533162464.dir/build.make CMakeFiles/cmTryCompileExec2533162464.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2533162464.dir/src.cxx.o
+/usr/bin/clang++    -D_REENTRANT -DXUSE_MTSAFE_API -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -fPIC  -std=c++14 -stdlib=libstdc++ -fvisibility=hidden -g -gfull -ggdb -ggdb3 -W -Wall -Wextra -Wunused-parameter -Wconversion -Woverloaded-virtual -Wundef -Wfloat-equal -Wmissing-noreturn -Wcast-align -Wuninitialized -Wdocumentation         -DYUNI_HAS_STL_HASH -std=c++0x   -o CMakeFiles/cmTryCompileExec2533162464.dir/src.cxx.o -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec2533162464
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2533162464.dir/link.txt --verbose=1
+/usr/bin/clang++    -D_REENTRANT -DXUSE_MTSAFE_API -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -fPIC  -std=c++14 -stdlib=libstdc++ -fvisibility=hidden -g -gfull -ggdb -ggdb3 -W -Wall -Wextra -Wunused-parameter -Wconversion -Woverloaded-virtual -Wundef -Wfloat-equal -Wmissing-noreturn -Wcast-align -Wuninitialized -Wdocumentation         -DYUNI_HAS_STL_HASH -std=c++0x    CMakeFiles/cmTryCompileExec2533162464.dir/src.cxx.o  -o cmTryCompileExec2533162464 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+	#include <functional>
+
+	class Dummy {};
+
+	namespace std
+	{
+		template<>
+		struct hash<Dummy>
+		{
+			size_t operator() (const Dummy& ) const
+			{
+				return 0;
+			}
+		};
+
+	} // namespace std
+
+	int main() {return 0;}
+Performing C++ SOURCE FILE Test YUNI_HAS_STL_UNORDERED_MAP succeded with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3190935511/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3190935511.dir/build.make CMakeFiles/cmTryCompileExec3190935511.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3190935511.dir/src.cxx.o
+/usr/bin/clang++    -D_REENTRANT -DXUSE_MTSAFE_API -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -fPIC  -std=c++14 -stdlib=libstdc++ -fvisibility=hidden -g -gfull -ggdb -ggdb3 -W -Wall -Wextra -Wunused-parameter -Wconversion -Woverloaded-virtual -Wundef -Wfloat-equal -Wmissing-noreturn -Wcast-align -Wuninitialized -Wdocumentation         -DYUNI_HAS_STL_UNORDERED_MAP -std=c++0x   -o CMakeFiles/cmTryCompileExec3190935511.dir/src.cxx.o -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec3190935511
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3190935511.dir/link.txt --verbose=1
+/usr/bin/clang++    -D_REENTRANT -DXUSE_MTSAFE_API -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -fPIC  -std=c++14 -stdlib=libstdc++ -fvisibility=hidden -g -gfull -ggdb -ggdb3 -W -Wall -Wextra -Wunused-parameter -Wconversion -Woverloaded-virtual -Wundef -Wfloat-equal -Wmissing-noreturn -Wcast-align -Wuninitialized -Wdocumentation         -DYUNI_HAS_STL_UNORDERED_MAP -std=c++0x    CMakeFiles/cmTryCompileExec3190935511.dir/src.cxx.o  -o cmTryCompileExec3190935511 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+	#include <unordered_map>
+
+	int main() {std::unordered_map<int, int> map;return 0;}
+Performing C++ SOURCE FILE Test YUNI_HAS_STL_UNORDERED_SET succeded with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1763454103/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1763454103.dir/build.make CMakeFiles/cmTryCompileExec1763454103.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1763454103.dir/src.cxx.o
+/usr/bin/clang++    -D_REENTRANT -DXUSE_MTSAFE_API -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -fPIC  -std=c++14 -stdlib=libstdc++ -fvisibility=hidden -g -gfull -ggdb -ggdb3 -W -Wall -Wextra -Wunused-parameter -Wconversion -Woverloaded-virtual -Wundef -Wfloat-equal -Wmissing-noreturn -Wcast-align -Wuninitialized -Wdocumentation         -DYUNI_HAS_STL_UNORDERED_SET -std=c++0x   -o CMakeFiles/cmTryCompileExec1763454103.dir/src.cxx.o -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec1763454103
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1763454103.dir/link.txt --verbose=1
+/usr/bin/clang++    -D_REENTRANT -DXUSE_MTSAFE_API -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -fPIC  -std=c++14 -stdlib=libstdc++ -fvisibility=hidden -g -gfull -ggdb -ggdb3 -W -Wall -Wextra -Wunused-parameter -Wconversion -Woverloaded-virtual -Wundef -Wfloat-equal -Wmissing-noreturn -Wcast-align -Wuninitialized -Wdocumentation         -DYUNI_HAS_STL_UNORDERED_SET -std=c++0x    CMakeFiles/cmTryCompileExec1763454103.dir/src.cxx.o  -o cmTryCompileExec1763454103 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+	#include <unordered_set>
+
+	int main() {std::unordered_set<int> map;return 0;}
+Performing C++ SOURCE FILE Test YUNI_HAS_GCC_ALWAYS_INLINE succeded with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec852599157/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec852599157.dir/build.make CMakeFiles/cmTryCompileExec852599157.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec852599157.dir/src.cxx.o
+/usr/bin/clang++    -D_REENTRANT -DXUSE_MTSAFE_API -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -fPIC  -std=c++14 -stdlib=libstdc++ -fvisibility=hidden -g -gfull -ggdb -ggdb3 -W -Wall -Wextra -Wunused-parameter -Wconversion -Woverloaded-virtual -Wundef -Wfloat-equal -Wmissing-noreturn -Wcast-align -Wuninitialized -Wdocumentation         -DYUNI_HAS_GCC_ALWAYS_INLINE -std=c++0x   -o CMakeFiles/cmTryCompileExec852599157.dir/src.cxx.o -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec852599157
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec852599157.dir/link.txt --verbose=1
+/usr/bin/clang++    -D_REENTRANT -DXUSE_MTSAFE_API -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -fPIC  -std=c++14 -stdlib=libstdc++ -fvisibility=hidden -g -gfull -ggdb -ggdb3 -W -Wall -Wextra -Wunused-parameter -Wconversion -Woverloaded-virtual -Wundef -Wfloat-equal -Wmissing-noreturn -Wcast-align -Wuninitialized -Wdocumentation         -DYUNI_HAS_GCC_ALWAYS_INLINE -std=c++0x    CMakeFiles/cmTryCompileExec852599157.dir/src.cxx.o  -o cmTryCompileExec852599157 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+		__attribute__((always_inline)) static int max(int x, int y) { return x > y ? x : y;}
+		int main(void)
+		{
+			return max(42, 0);
+		} 
+Performing C++ SOURCE FILE Test YUNI_HAS_CPP_KEYWORD_OVERRIDE succeded with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4034683483/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4034683483.dir/build.make CMakeFiles/cmTryCompileExec4034683483.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4034683483.dir/src.cxx.o
+/usr/bin/clang++    -D_REENTRANT -DXUSE_MTSAFE_API -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -fPIC  -std=c++14 -stdlib=libstdc++ -fvisibility=hidden -g -gfull -ggdb -ggdb3 -W -Wall -Wextra -Wunused-parameter -Wconversion -Woverloaded-virtual -Wundef -Wfloat-equal -Wmissing-noreturn -Wcast-align -Wuninitialized -Wdocumentation         -DYUNI_HAS_CPP_KEYWORD_OVERRIDE -std=c++0x   -o CMakeFiles/cmTryCompileExec4034683483.dir/src.cxx.o -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec4034683483
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4034683483.dir/link.txt --verbose=1
+/usr/bin/clang++    -D_REENTRANT -DXUSE_MTSAFE_API -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -fPIC  -std=c++14 -stdlib=libstdc++ -fvisibility=hidden -g -gfull -ggdb -ggdb3 -W -Wall -Wextra -Wunused-parameter -Wconversion -Woverloaded-virtual -Wundef -Wfloat-equal -Wmissing-noreturn -Wcast-align -Wuninitialized -Wdocumentation         -DYUNI_HAS_CPP_KEYWORD_OVERRIDE -std=c++0x    CMakeFiles/cmTryCompileExec4034683483.dir/src.cxx.o  -o cmTryCompileExec4034683483 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+	class IBase
+	{
+	public:
+		virtual void foo() {}
+	};
+	class Foo : public IBase
+	{
+	public:
+		virtual void foo() override {}
+	};
+
+	int main() {Foo foo;return 0;}
+Performing C++ SOURCE FILE Test YUNI_HAS_CPP_KEYWORD_FINAL succeded with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec675717726/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec675717726.dir/build.make CMakeFiles/cmTryCompileExec675717726.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec675717726.dir/src.cxx.o
+/usr/bin/clang++    -D_REENTRANT -DXUSE_MTSAFE_API -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -fPIC  -std=c++14 -stdlib=libstdc++ -fvisibility=hidden -g -gfull -ggdb -ggdb3 -W -Wall -Wextra -Wunused-parameter -Wconversion -Woverloaded-virtual -Wundef -Wfloat-equal -Wmissing-noreturn -Wcast-align -Wuninitialized -Wdocumentation         -DYUNI_HAS_CPP_KEYWORD_FINAL -std=c++0x   -o CMakeFiles/cmTryCompileExec675717726.dir/src.cxx.o -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec675717726
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec675717726.dir/link.txt --verbose=1
+/usr/bin/clang++    -D_REENTRANT -DXUSE_MTSAFE_API -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -fPIC  -std=c++14 -stdlib=libstdc++ -fvisibility=hidden -g -gfull -ggdb -ggdb3 -W -Wall -Wextra -Wunused-parameter -Wconversion -Woverloaded-virtual -Wundef -Wfloat-equal -Wmissing-noreturn -Wcast-align -Wuninitialized -Wdocumentation         -DYUNI_HAS_CPP_KEYWORD_FINAL -std=c++0x    CMakeFiles/cmTryCompileExec675717726.dir/src.cxx.o  -o cmTryCompileExec675717726 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+	class IBase
+	{
+	public:
+		virtual void foo() {}
+	};
+	class Foo : public IBase
+	{
+	public:
+		virtual void foo() final {}
+	};
+
+	int main() {Foo foo;return 0;}
+Performing C++ SOURCE FILE Test YUNI_HAS_CPP_STATIC_ASSERT succeded with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3343835947/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3343835947.dir/build.make CMakeFiles/cmTryCompileExec3343835947.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3343835947.dir/src.cxx.o
+/usr/bin/clang++    -D_REENTRANT -DXUSE_MTSAFE_API -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -fPIC  -std=c++14 -stdlib=libstdc++ -fvisibility=hidden -g -gfull -ggdb -ggdb3 -W -Wall -Wextra -Wunused-parameter -Wconversion -Woverloaded-virtual -Wundef -Wfloat-equal -Wmissing-noreturn -Wcast-align -Wuninitialized -Wdocumentation         -DYUNI_HAS_CPP_STATIC_ASSERT -std=c++0x   -o CMakeFiles/cmTryCompileExec3343835947.dir/src.cxx.o -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec3343835947
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3343835947.dir/link.txt --verbose=1
+/usr/bin/clang++    -D_REENTRANT -DXUSE_MTSAFE_API -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -fPIC  -std=c++14 -stdlib=libstdc++ -fvisibility=hidden -g -gfull -ggdb -ggdb3 -W -Wall -Wextra -Wunused-parameter -Wconversion -Woverloaded-virtual -Wundef -Wfloat-equal -Wmissing-noreturn -Wcast-align -Wuninitialized -Wdocumentation         -DYUNI_HAS_CPP_STATIC_ASSERT -std=c++0x    CMakeFiles/cmTryCompileExec3343835947.dir/src.cxx.o  -o cmTryCompileExec3343835947 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+	int main()
+	{
+		static_assert(true, "test");
+		return 0;
+	}
+Performing C++ SOURCE FILE Test YUNI_HAS_STD_ATOMIC succeded with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec366293141/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec366293141.dir/build.make CMakeFiles/cmTryCompileExec366293141.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec366293141.dir/src.cxx.o
+/usr/bin/clang++    -D_REENTRANT -DXUSE_MTSAFE_API -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -fPIC  -std=c++14 -stdlib=libstdc++ -fvisibility=hidden -g -gfull -ggdb -ggdb3 -W -Wall -Wextra -Wunused-parameter -Wconversion -Woverloaded-virtual -Wundef -Wfloat-equal -Wmissing-noreturn -Wcast-align -Wuninitialized -Wdocumentation         -DYUNI_HAS_STD_ATOMIC -std=c++0x   -o CMakeFiles/cmTryCompileExec366293141.dir/src.cxx.o -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.cxx
+/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.cxx:5:28: warning: unused variable 'afint64' [-Wunused-variable]
+                std::atomic_int_fast64_t afint64;
+                                         ^
+/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.cxx:4:28: warning: unused variable 'afint32' [-Wunused-variable]
+                std::atomic_int_fast32_t afint32;
+                                         ^
+2 warnings generated.
+Linking CXX executable cmTryCompileExec366293141
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec366293141.dir/link.txt --verbose=1
+/usr/bin/clang++    -D_REENTRANT -DXUSE_MTSAFE_API -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -fPIC  -std=c++14 -stdlib=libstdc++ -fvisibility=hidden -g -gfull -ggdb -ggdb3 -W -Wall -Wextra -Wunused-parameter -Wconversion -Woverloaded-virtual -Wundef -Wfloat-equal -Wmissing-noreturn -Wcast-align -Wuninitialized -Wdocumentation         -DYUNI_HAS_STD_ATOMIC -std=c++0x    CMakeFiles/cmTryCompileExec366293141.dir/src.cxx.o  -o cmTryCompileExec366293141 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+	#include <atomic>
+	int main() {
+		std::atomic_int_fast32_t afint32;
+		std::atomic_int_fast64_t afint64;
+		return 0;
+	}
+Performing C++ SOURCE FILE Test YUNI_HAS_CPP_MOVE succeded with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec280198625/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec280198625.dir/build.make CMakeFiles/cmTryCompileExec280198625.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec280198625.dir/src.cxx.o
+/usr/bin/clang++    -D_REENTRANT -DXUSE_MTSAFE_API -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -fPIC  -std=c++14 -stdlib=libstdc++ -fvisibility=hidden -g -gfull -ggdb -ggdb3 -W -Wall -Wextra -Wunused-parameter -Wconversion -Woverloaded-virtual -Wundef -Wfloat-equal -Wmissing-noreturn -Wcast-align -Wuninitialized -Wdocumentation         -DYUNI_HAS_CPP_MOVE -std=c++0x   -o CMakeFiles/cmTryCompileExec280198625.dir/src.cxx.o -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec280198625
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec280198625.dir/link.txt --verbose=1
+/usr/bin/clang++    -D_REENTRANT -DXUSE_MTSAFE_API -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -fPIC  -std=c++14 -stdlib=libstdc++ -fvisibility=hidden -g -gfull -ggdb -ggdb3 -W -Wall -Wextra -Wunused-parameter -Wconversion -Woverloaded-virtual -Wundef -Wfloat-equal -Wmissing-noreturn -Wcast-align -Wuninitialized -Wdocumentation         -DYUNI_HAS_CPP_MOVE -std=c++0x    CMakeFiles/cmTryCompileExec280198625.dir/src.cxx.o  -o cmTryCompileExec280198625 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+	#include <iostream>
+	#include <string>
+	void foo(std::string&& value)
+	{
+		std::cout << value;
+	}
+	int main()
+	{
+		foo(std::string(""));
+		return 0;
+	}
+Performing C++ SOURCE FILE Test YUNI_HAS_CPP_LAMBDA succeded with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1390695230/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1390695230.dir/build.make CMakeFiles/cmTryCompileExec1390695230.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1390695230.dir/src.cxx.o
+/usr/bin/clang++    -D_REENTRANT -DXUSE_MTSAFE_API -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -fPIC  -std=c++14 -stdlib=libstdc++ -fvisibility=hidden -g -gfull -ggdb -ggdb3 -W -Wall -Wextra -Wunused-parameter -Wconversion -Woverloaded-virtual -Wundef -Wfloat-equal -Wmissing-noreturn -Wcast-align -Wuninitialized -Wdocumentation         -DYUNI_HAS_CPP_LAMBDA -std=c++0x   -o CMakeFiles/cmTryCompileExec1390695230.dir/src.cxx.o -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec1390695230
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1390695230.dir/link.txt --verbose=1
+/usr/bin/clang++    -D_REENTRANT -DXUSE_MTSAFE_API -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -fPIC  -std=c++14 -stdlib=libstdc++ -fvisibility=hidden -g -gfull -ggdb -ggdb3 -W -Wall -Wextra -Wunused-parameter -Wconversion -Woverloaded-virtual -Wundef -Wfloat-equal -Wmissing-noreturn -Wcast-align -Wuninitialized -Wdocumentation         -DYUNI_HAS_CPP_LAMBDA -std=c++0x    CMakeFiles/cmTryCompileExec1390695230.dir/src.cxx.o  -o cmTryCompileExec1390695230 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+	#include <iostream>
+	int main()
+	{
+		auto func = [] () { std::cout << "Hello world"; };
+		func();
+		return 0;
+	}
+Performing C++ SOURCE FILE Test YUNI_HAS_INT64_T succeded with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2963813155/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2963813155.dir/build.make CMakeFiles/cmTryCompileExec2963813155.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2963813155.dir/src.cxx.o
+/usr/bin/clang++    -D_REENTRANT -DXUSE_MTSAFE_API -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -fPIC  -std=c++14 -stdlib=libstdc++ -fvisibility=hidden -g -gfull -ggdb -ggdb3 -W -Wall -Wextra -Wunused-parameter -Wconversion -Woverloaded-virtual -Wundef -Wfloat-equal -Wmissing-noreturn -Wcast-align -Wuninitialized -Wdocumentation         -DYUNI_HAS_INT64_T -std=c++0x   -o CMakeFiles/cmTryCompileExec2963813155.dir/src.cxx.o -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.cxx
+/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.cxx:2:22: warning: unused variable 'a' [-Wunused-variable]
+        int main() {int64_t a; return 0;}
+                            ^
+1 warning generated.
+Linking CXX executable cmTryCompileExec2963813155
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2963813155.dir/link.txt --verbose=1
+/usr/bin/clang++    -D_REENTRANT -DXUSE_MTSAFE_API -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -fPIC  -std=c++14 -stdlib=libstdc++ -fvisibility=hidden -g -gfull -ggdb -ggdb3 -W -Wall -Wextra -Wunused-parameter -Wconversion -Woverloaded-virtual -Wundef -Wfloat-equal -Wmissing-noreturn -Wcast-align -Wuninitialized -Wdocumentation         -DYUNI_HAS_INT64_T -std=c++0x    CMakeFiles/cmTryCompileExec2963813155.dir/src.cxx.o  -o cmTryCompileExec2963813155 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <stdint.h>
+	int main() {int64_t a; return 0;}
+Performing C++ SOURCE FILE Test YUNI_HAS_INT128_T succeded with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2633307709/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2633307709.dir/build.make CMakeFiles/cmTryCompileExec2633307709.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2633307709.dir/src.cxx.o
+/usr/bin/clang++    -D_REENTRANT -DXUSE_MTSAFE_API -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -fPIC  -std=c++14 -stdlib=libstdc++ -fvisibility=hidden -g -gfull -ggdb -ggdb3 -W -Wall -Wextra -Wunused-parameter -Wconversion -Woverloaded-virtual -Wundef -Wfloat-equal -Wmissing-noreturn -Wcast-align -Wuninitialized -Wdocumentation         -DYUNI_HAS_INT128_T -std=c++0x   -o CMakeFiles/cmTryCompileExec2633307709.dir/src.cxx.o -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.cxx
+/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.cxx:2:23: warning: unused variable 'a' [-Wunused-variable]
+        int main() {__int128 a; unsigned __int128 b; return 0;}
+                             ^
+/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.cxx:2:44: warning: unused variable 'b' [-Wunused-variable]
+        int main() {__int128 a; unsigned __int128 b; return 0;}
+                                                  ^
+2 warnings generated.
+Linking CXX executable cmTryCompileExec2633307709
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2633307709.dir/link.txt --verbose=1
+/usr/bin/clang++    -D_REENTRANT -DXUSE_MTSAFE_API -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -fPIC  -std=c++14 -stdlib=libstdc++ -fvisibility=hidden -g -gfull -ggdb -ggdb3 -W -Wall -Wextra -Wunused-parameter -Wconversion -Woverloaded-virtual -Wundef -Wfloat-equal -Wmissing-noreturn -Wcast-align -Wuninitialized -Wdocumentation         -DYUNI_HAS_INT128_T -std=c++0x    CMakeFiles/cmTryCompileExec2633307709.dir/src.cxx.o  -o cmTryCompileExec2633307709 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <stdint.h>
+	int main() {__int128 a; unsigned __int128 b; return 0;}
+Performing C++ SOURCE FILE Test YUNI_HAS_VA_COPY succeded with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1516858891/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1516858891.dir/build.make CMakeFiles/cmTryCompileExec1516858891.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1516858891.dir/src.cxx.o
+/usr/bin/clang++    -D_REENTRANT -DXUSE_MTSAFE_API -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -fPIC  -std=c++14 -stdlib=libstdc++ -fvisibility=hidden -g -gfull -ggdb -ggdb3 -W -Wall -Wextra -Wunused-parameter -Wconversion -Woverloaded-virtual -Wundef -Wfloat-equal -Wmissing-noreturn -Wcast-align -Wuninitialized -Wdocumentation         -DYUNI_HAS_VA_COPY -std=c++0x   -o CMakeFiles/cmTryCompileExec1516858891.dir/src.cxx.o -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec1516858891
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1516858891.dir/link.txt --verbose=1
+/usr/bin/clang++    -D_REENTRANT -DXUSE_MTSAFE_API -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -fPIC  -std=c++14 -stdlib=libstdc++ -fvisibility=hidden -g -gfull -ggdb -ggdb3 -W -Wall -Wextra -Wunused-parameter -Wconversion -Woverloaded-virtual -Wundef -Wfloat-equal -Wmissing-noreturn -Wcast-align -Wuninitialized -Wdocumentation         -DYUNI_HAS_VA_COPY -std=c++0x    CMakeFiles/cmTryCompileExec1516858891.dir/src.cxx.o  -o cmTryCompileExec1516858891 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <stdarg.h>
+	int main() {va_list a, b; va_copy(a, b);}
+Performing C++ SOURCE FILE Test YUNI_HAS_SYNC_ADD_AND_FETCH succeded with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3952922927/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3952922927.dir/build.make CMakeFiles/cmTryCompileExec3952922927.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3952922927.dir/src.cxx.o
+/usr/bin/clang++    -D_REENTRANT -DXUSE_MTSAFE_API -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -fPIC  -std=c++14 -stdlib=libstdc++ -fvisibility=hidden -g -gfull -ggdb -ggdb3 -W -Wall -Wextra -Wunused-parameter -Wconversion -Woverloaded-virtual -Wundef -Wfloat-equal -Wmissing-noreturn -Wcast-align -Wuninitialized -Wdocumentation         -DYUNI_HAS_SYNC_ADD_AND_FETCH -std=c++0x   -o CMakeFiles/cmTryCompileExec3952922927.dir/src.cxx.o -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.cxx
+/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.cxx:2:35: warning: unused variable 'j' [-Wunused-variable]
+                int main() {   int i = 3;   int j = __sync_add_and_fetch(&i, 1);   return 0; } 
+                                                ^
+1 warning generated.
+Linking CXX executable cmTryCompileExec3952922927
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3952922927.dir/link.txt --verbose=1
+/usr/bin/clang++    -D_REENTRANT -DXUSE_MTSAFE_API -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -fPIC  -std=c++14 -stdlib=libstdc++ -fvisibility=hidden -g -gfull -ggdb -ggdb3 -W -Wall -Wextra -Wunused-parameter -Wconversion -Woverloaded-virtual -Wundef -Wfloat-equal -Wmissing-noreturn -Wcast-align -Wuninitialized -Wdocumentation         -DYUNI_HAS_SYNC_ADD_AND_FETCH -std=c++0x    CMakeFiles/cmTryCompileExec3952922927.dir/src.cxx.o  -o cmTryCompileExec3952922927 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+		int main() {   int i = 3;   int j = __sync_add_and_fetch(&i, 1);   return 0; } 
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1250250850/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1250250850.dir/build.make CMakeFiles/cmTryCompileExec1250250850.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1250250850.dir/CheckIncludeFiles.c.o
+/usr/bin/clang    -o CMakeFiles/cmTryCompileExec1250250850.dir/CheckIncludeFiles.c.o   -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1250250850
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1250250850.dir/link.txt --verbose=1
+/usr/bin/clang       CMakeFiles/cmTryCompileExec1250250850.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1250250850 -rdynamic 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4247929375/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4247929375.dir/build.make CMakeFiles/cmTryCompileExec4247929375.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4247929375.dir/CheckFunctionExists.c.o
+/usr/bin/clang   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec4247929375.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4247929375
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4247929375.dir/link.txt --verbose=1
+/usr/bin/clang   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec4247929375.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4247929375 -rdynamic -lpthread 
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+
+

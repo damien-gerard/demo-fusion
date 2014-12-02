@@ -1,0 +1,249 @@
+Determining if the include file cstdlib exists failed with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1196866250/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1196866250.dir/build.make CMakeFiles/cmTryCompileExec1196866250.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1196866250.dir/CheckIncludeFile.c.o
+/usr/bin/clang    -o CMakeFiles/cmTryCompileExec1196866250.dir/CheckIncludeFile.c.o   -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'cstdlib' file not found
+#include <cstdlib>
+         ^
+1 error generated.
+CMakeFiles/cmTryCompileExec1196866250.dir/build.make:60: recipe for target 'CMakeFiles/cmTryCompileExec1196866250.dir/CheckIncludeFile.c.o' failed
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec1196866250.dir/CheckIncludeFile.c.o] Error 1
+Makefile:117: recipe for target 'cmTryCompileExec1196866250/fast' failed
+make: *** [cmTryCompileExec1196866250/fast] Error 2
+
+
+Performing C++ SOURCE FILE Test YUNI_HAS_LONG failed with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1841446341/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1841446341.dir/build.make CMakeFiles/cmTryCompileExec1841446341.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1841446341.dir/src.cxx.o
+/usr/bin/clang++    -D_REENTRANT -DXUSE_MTSAFE_API -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -fPIC  -std=c++14 -stdlib=libstdc++ -fvisibility=hidden -g -gfull -ggdb -ggdb3 -W -Wall -Wextra -Wunused-parameter -Wconversion -Woverloaded-virtual -Wundef -Wfloat-equal -Wmissing-noreturn -Wcast-align -Wuninitialized -Wdocumentation         -DYUNI_HAS_LONG -std=c++0x   -o CMakeFiles/cmTryCompileExec1841446341.dir/src.cxx.o -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.cxx
+/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.cxx:9:9: error: redefinition of 'foo'
+                        void foo(int64_t a) {std::cout << a;}
+                             ^
+/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.cxx:8:9: note: previous definition is here
+                        void foo(long a) {std::cout << a;}
+                             ^
+1 error generated.
+CMakeFiles/cmTryCompileExec1841446341.dir/build.make:60: recipe for target 'CMakeFiles/cmTryCompileExec1841446341.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec1841446341.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+Makefile:117: recipe for target 'cmTryCompileExec1841446341/fast' failed
+make: *** [cmTryCompileExec1841446341/fast] Error 2
+
+Source file was:
+
+			#include <iostream>
+			#include <sys/types.h>
+			#include <stdio.h>
+			void foo(unsigned int a) {std::cout << a;}
+			void foo(int a) {std::cout << a;}
+			void foo(unsigned long a) {std::cout << a;}
+			void foo(long a) {std::cout << a;}
+			void foo(int64_t a) {std::cout << a;}
+			int main() {return 0;}
+Performing C SOURCE FILE Test YUNI_HAS_UINT failed with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1734988891/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1734988891.dir/build.make CMakeFiles/cmTryCompileExec1734988891.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1734988891.dir/src.c.o
+/usr/bin/clang   -DYUNI_HAS_UINT -std=c++0x   -o CMakeFiles/cmTryCompileExec1734988891.dir/src.c.o   -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.c
+error: invalid argument '-std=c++0x' not allowed with 'C/ObjC'
+CMakeFiles/cmTryCompileExec1734988891.dir/build.make:60: recipe for target 'CMakeFiles/cmTryCompileExec1734988891.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec1734988891.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+Makefile:117: recipe for target 'cmTryCompileExec1734988891/fast' failed
+make: *** [cmTryCompileExec1734988891/fast] Error 2
+
+Source file was:
+#include <sys/types.h>
+		int main() {uint r = 0; return (int) r;}
+Performing C SOURCE FILE Test YUNI_HAS_SSIZE_T failed with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1285214434/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1285214434.dir/build.make CMakeFiles/cmTryCompileExec1285214434.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1285214434.dir/src.c.o
+/usr/bin/clang   -DYUNI_HAS_SSIZE_T -std=c++0x   -o CMakeFiles/cmTryCompileExec1285214434.dir/src.c.o   -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.c
+error: invalid argument '-std=c++0x' not allowed with 'C/ObjC'
+CMakeFiles/cmTryCompileExec1285214434.dir/build.make:60: recipe for target 'CMakeFiles/cmTryCompileExec1285214434.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec1285214434.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+Makefile:117: recipe for target 'cmTryCompileExec1285214434/fast' failed
+make: *** [cmTryCompileExec1285214434/fast] Error 2
+
+Source file was:
+#include <sys/types.h>
+		int main() {ssize_t r = 0; return (int) r;}
+Performing C SOURCE FILE Test YUNI_HAS_GCC_NOWARNING failed with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1600804844/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1600804844.dir/build.make CMakeFiles/cmTryCompileExec1600804844.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1600804844.dir/src.c.o
+/usr/bin/clang   -DYUNI_HAS_GCC_NOWARNING -std=c++0x   -w -o CMakeFiles/cmTryCompileExec1600804844.dir/src.c.o   -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.c
+error: invalid argument '-std=c++0x' not allowed with 'C/ObjC'
+CMakeFiles/cmTryCompileExec1600804844.dir/build.make:60: recipe for target 'CMakeFiles/cmTryCompileExec1600804844.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec1600804844.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+Makefile:117: recipe for target 'cmTryCompileExec1600804844/fast' failed
+make: *** [cmTryCompileExec1600804844/fast] Error 2
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test YUNI_HAS_POSIX_FALLOCATE failed with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3962949467/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3962949467.dir/build.make CMakeFiles/cmTryCompileExec3962949467.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3962949467.dir/src.cxx.o
+/usr/bin/clang++    -D_REENTRANT -DXUSE_MTSAFE_API -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -fPIC  -std=c++14 -stdlib=libstdc++ -fvisibility=hidden -g -gfull -ggdb -ggdb3 -W -Wall -Wextra -Wunused-parameter -Wconversion -Woverloaded-virtual -Wundef -Wfloat-equal -Wmissing-noreturn -Wcast-align -Wuninitialized -Wdocumentation         -DYUNI_HAS_POSIX_FALLOCATE -std=c++0x   -o CMakeFiles/cmTryCompileExec3962949467.dir/src.cxx.o -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.cxx
+/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.cxx:4:49: error: use of undeclared identifier 'EXIT_FAILURE'
+                        return (0 != posix_fallocate(42, 0, 1024)) ? EXIT_FAILURE : 0;
+                                                                     ^
+1 error generated.
+CMakeFiles/cmTryCompileExec3962949467.dir/build.make:60: recipe for target 'CMakeFiles/cmTryCompileExec3962949467.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec3962949467.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+Makefile:117: recipe for target 'cmTryCompileExec3962949467/fast' failed
+make: *** [cmTryCompileExec3962949467/fast] Error 2
+
+Source file was:
+
+		#include <fcntl.h>
+		int main() {
+			return (0 != posix_fallocate(42, 0, 1024)) ? EXIT_FAILURE : 0;
+		} 
+Performing C++ SOURCE FILE Test YUNI_HAS_PTHREAD_GETTHREADID_NP failed with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2542417316/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2542417316.dir/build.make CMakeFiles/cmTryCompileExec2542417316.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2542417316.dir/src.cxx.o
+/usr/bin/clang++    -D_REENTRANT -DXUSE_MTSAFE_API -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -fPIC  -std=c++14 -stdlib=libstdc++ -fvisibility=hidden -g -gfull -ggdb -ggdb3 -W -Wall -Wextra -Wunused-parameter -Wconversion -Woverloaded-virtual -Wundef -Wfloat-equal -Wmissing-noreturn -Wcast-align -Wuninitialized -Wdocumentation         -DYUNI_HAS_PTHREAD_GETTHREADID_NP -std=c++0x   -o CMakeFiles/cmTryCompileExec2542417316.dir/src.cxx.o -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.cxx
+/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.cxx:4:14: error: use of undeclared identifier 'pthread_getthreadid_np'
+                        int ret = pthread_getthreadid_np();
+                                  ^
+1 error generated.
+CMakeFiles/cmTryCompileExec2542417316.dir/build.make:60: recipe for target 'CMakeFiles/cmTryCompileExec2542417316.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec2542417316.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+Makefile:117: recipe for target 'cmTryCompileExec2542417316/fast' failed
+make: *** [cmTryCompileExec2542417316/fast] Error 2
+
+Source file was:
+
+		#include <pthread.h>
+		int main() {
+			int ret = pthread_getthreadid_np();
+			return 0;
+		} 
+Performing C++ SOURCE FILE Test YUNI_HAS_PTHREAD_ATTR_SETSTACKSIZE failed with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec672376468/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec672376468.dir/build.make CMakeFiles/cmTryCompileExec672376468.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec672376468.dir/src.cxx.o
+/usr/bin/clang++    -D_REENTRANT -DXUSE_MTSAFE_API -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -fPIC  -std=c++14 -stdlib=libstdc++ -fvisibility=hidden -g -gfull -ggdb -ggdb3 -W -Wall -Wextra -Wunused-parameter -Wconversion -Woverloaded-virtual -Wundef -Wfloat-equal -Wmissing-noreturn -Wcast-align -Wuninitialized -Wdocumentation         -DYUNI_HAS_PTHREAD_ATTR_SETSTACKSIZE -std=c++0x   -o CMakeFiles/cmTryCompileExec672376468.dir/src.cxx.o -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.cxx
+/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.cxx:4:40: warning: null passed to a callee which requires a non-null argument [-Wnonnull]
+                        pthread_attr_setstacksize(NULL, 4096);
+                                                  ~~~~      ^
+1 warning generated.
+Linking CXX executable cmTryCompileExec672376468
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec672376468.dir/link.txt --verbose=1
+/usr/bin/clang++    -D_REENTRANT -DXUSE_MTSAFE_API -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -fPIC  -std=c++14 -stdlib=libstdc++ -fvisibility=hidden -g -gfull -ggdb -ggdb3 -W -Wall -Wextra -Wunused-parameter -Wconversion -Woverloaded-virtual -Wundef -Wfloat-equal -Wmissing-noreturn -Wcast-align -Wuninitialized -Wdocumentation         -DYUNI_HAS_PTHREAD_ATTR_SETSTACKSIZE -std=c++0x    CMakeFiles/cmTryCompileExec672376468.dir/src.cxx.o  -o cmTryCompileExec672376468 -rdynamic 
+CMakeFiles/cmTryCompileExec672376468.dir/src.cxx.o: In function `main':
+/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/src.cxx:4: undefined reference to `pthread_attr_setstacksize'
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+CMakeFiles/cmTryCompileExec672376468.dir/build.make:91: recipe for target 'cmTryCompileExec672376468' failed
+make[1]: *** [cmTryCompileExec672376468] Error 1
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+Makefile:117: recipe for target 'cmTryCompileExec672376468/fast' failed
+make: *** [cmTryCompileExec672376468/fast] Error 2
+
+Source file was:
+
+		#include <pthread.h>
+		int main() {
+			pthread_attr_setstacksize(NULL, 4096);
+			return 0;
+		} 
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3552473194/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3552473194.dir/build.make CMakeFiles/cmTryCompileExec3552473194.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3552473194.dir/CheckSymbolExists.c.o
+/usr/bin/clang    -o CMakeFiles/cmTryCompileExec3552473194.dir/CheckSymbolExists.c.o   -c /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3552473194
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3552473194.dir/link.txt --verbose=1
+/usr/bin/clang       CMakeFiles/cmTryCompileExec3552473194.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3552473194 -rdynamic 
+CMakeFiles/cmTryCompileExec3552473194.dir/CheckSymbolExists.c.o: In function `main':
+/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CheckSymbolExists.c:(.text+0x19): undefined reference to `pthread_create'
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+CMakeFiles/cmTryCompileExec3552473194.dir/build.make:91: recipe for target 'cmTryCompileExec3552473194' failed
+make[1]: *** [cmTryCompileExec3552473194] Error 1
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+Makefile:117: recipe for target 'cmTryCompileExec3552473194/fast' failed
+make: *** [cmTryCompileExec3552473194/fast] Error 2
+
+File /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1969080535/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1969080535.dir/build.make CMakeFiles/cmTryCompileExec1969080535.dir/build
+make[1]: Entering directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1969080535.dir/CheckFunctionExists.c.o
+/usr/bin/clang   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec1969080535.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1969080535
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1969080535.dir/link.txt --verbose=1
+/usr/bin/clang   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec1969080535.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1969080535 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+CMakeFiles/cmTryCompileExec1969080535.dir/build.make:91: recipe for target 'cmTryCompileExec1969080535' failed
+make[1]: *** [cmTryCompileExec1969080535] Error 1
+make[1]: Leaving directory '/home/dgerard/projects/yuni/src/CMakeFiles/CMakeTmp'
+Makefile:117: recipe for target 'cmTryCompileExec1969080535/fast' failed
+make: *** [cmTryCompileExec1969080535/fast] Error 2
+
+

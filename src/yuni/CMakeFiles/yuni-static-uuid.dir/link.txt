@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../build/debug/lib/libyuni-static-uuid.a  CMakeFiles/yuni-static-uuid.dir/uuid/uuid.cpp.o
+/usr/bin/ranlib ../build/debug/lib/libyuni-static-uuid.a

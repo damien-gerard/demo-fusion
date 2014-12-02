@@ -1,0 +1,6 @@
+/home/dgerard/projects/yuni/src/tools/yuni-config/CMakeFiles/yuni-config.dir
+/home/dgerard/projects/yuni/src/tools/yuni-config/CMakeFiles/yuni-config-0.2.dir
+/home/dgerard/projects/yuni/src/tools/parser-generator/CMakeFiles/yuni-parser-generator.dir
+/home/dgerard/projects/yuni/src/yuni/CMakeFiles/yuni-static-core.dir
+/home/dgerard/projects/yuni/src/yuni/CMakeFiles/yuni-static-parser.dir
+/home/dgerard/projects/yuni/src/yuni/CMakeFiles/yuni-static-uuid.dir
