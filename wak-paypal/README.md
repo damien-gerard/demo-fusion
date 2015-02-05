@@ -1,5 +1,7 @@
 ## Wakanda Paypal Module ##
 
+Here are some new changes from a fork from github ! challenge accepted !
+
 This is a module that implements the Paypal REST API for Wakanda, it's still very basic, but it will allow you to handle payment easily.
 
 If you want to use this module, it's highly recommended that's you don't use it directly in your waPage, but build another module on top of it.
