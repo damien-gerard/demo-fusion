@@ -71,6 +71,8 @@ var transactions = [
 var redirect_urls  = {return_url: "www.wakanda.org", cancel_url:"www.wakanda.org"}	  
 
 
+new comments !
+
 
 var response = payment.createAsync({
 			onSuccess:function(data)
@@ -87,4 +89,7 @@ var response = payment.createAsync({
 							
 };
 ```          
+
+
+
 6. Checkout the details about the fields in [Paypal Developer Center](https://developer.paypal.com/webapps/developer/docs/api/)          
